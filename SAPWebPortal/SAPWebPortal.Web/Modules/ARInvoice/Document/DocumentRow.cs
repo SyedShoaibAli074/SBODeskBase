@@ -1,4 +1,5 @@
-﻿using Serenity;
+﻿using SAPWebPortal.ARInvoiceLine;
+using Serenity;
 using Serenity.ComponentModel;
 using Serenity.Data;
 using Serenity.Data.Mapping;
@@ -127,7 +128,13 @@ namespace SAPWebPortal.ARInvoice
             get => fields.PaidToDate[this];
             set => fields.PaidToDate[this] = value;
         }
-
+        [DisplayName("Document Lines"), NotNull, MasterDetailRelation(foreignKey: "DocEntry")]
+        [NotMapped]
+        public System.Collections.Generic.List<DocumentLineRow> DocumentLines
+        {
+            get => fields.DocumentLines[this];
+            set => fields.DocumentLines[this] = value;
+        }
         public DocumentRow()
             : base()
         {
@@ -152,6 +159,8 @@ namespace SAPWebPortal.ARInvoice
             public StringField NumAtCard;
             public DoubleField DocTotal;
             public DoubleField PaidToDate;
+            public RowListField<DocumentLineRow> DocumentLines;
+
 
         }
     }

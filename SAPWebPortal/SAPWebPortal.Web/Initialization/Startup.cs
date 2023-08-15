@@ -272,7 +272,7 @@ namespace SAPWebPortal
             }
             
             
-            var serviceProvider = app.ApplicationServices;
+           /* var serviceProvider = app.ApplicationServices;
             var myService = serviceProvider.GetRequiredService<ISAPtoShopifyController>();
 
 
@@ -298,7 +298,7 @@ namespace SAPWebPortal
             Thread SAPToShopifyItemPricesThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationItemPricesFunc));
             SAPToShopifyItemPricesThread.IsBackground = true;
             SAPToShopifyItemPricesThread.Name = "SAPToShopifyItemPricesThread";
-            SAPToShopifyItemPricesThread.Start();
+            SAPToShopifyItemPricesThread.Start();*/
 
             
         }

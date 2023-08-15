@@ -24,9 +24,9 @@
         PayToCode?: string;
         ShipToCode?: string;
         U_ShopifyOrderId?: string;
-        U_OrderNumber?: string;
-        U_CanceledAt?: string;
-        U_PaymentMethod?: string;
+        U_ORDERID?: string;
+        U_CUSNAME?: string;
+        U_CUSNUMBER?: string;
         U_Address?: string;
         DBName?: string;
         NumAtCard?: string;
@@ -68,9 +68,9 @@
             PayToCode = "PayToCode",
             ShipToCode = "ShipToCode",
             U_ShopifyOrderId = "U_ShopifyOrderId",
-            U_OrderNumber = "U_OrderNumber",
-            U_CanceledAt = "U_CanceledAt",
-            U_PaymentMethod = "U_PaymentMethod",
+            U_ORDERID = "U_ORDERID",
+            U_CUSNAME = "U_CUSNAME",
+            U_CUSNUMBER = "U_CUSNUMBER",
             U_Address = "U_Address",
             DBName = "DBName",
             NumAtCard = "NumAtCard",

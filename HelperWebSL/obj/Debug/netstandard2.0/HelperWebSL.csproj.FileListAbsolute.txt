@@ -108,3 +108,14 @@ C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstan
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb

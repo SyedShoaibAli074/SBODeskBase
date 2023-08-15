@@ -52,7 +52,17 @@ namespace SAPWebPortal.Common.PermissionsKeys
     public class MarketingDocsPermissionKeys
     {
         public const string General = "MarketingDocs:General";
-
+        [DisplayName("APInvoice")]
+        public class APInvoice
+        {
+            [ImplicitPermission(General), ImplicitPermission(View)]
+            public const string Delete = "MarketingDocs:APInvoice:Delete";
+            [Description("Create/Update"), ImplicitPermission(General), ImplicitPermission(View)]
+            public const string Modify = "MarketingDocs:APInvoice:Modify";
+            public const string View = "MarketingDocs:APInvoice:View";
+            public const string Insert = "MarketingDocs:APInvoice:Insert";
+            public const string List = "MarketingDocs:APInvoice:List";
+        }
         [DisplayName("SalesOrder")]
         public class SalesOrder
         {

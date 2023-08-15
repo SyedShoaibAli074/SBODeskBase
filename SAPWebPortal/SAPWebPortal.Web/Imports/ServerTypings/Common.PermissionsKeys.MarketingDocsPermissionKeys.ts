@@ -2,6 +2,14 @@
     export namespace MarketingDocsPermissionKeys {
         export const General = "MarketingDocs:General";
 
+        namespace APInvoice {
+            export const Delete = "MarketingDocs:APInvoice:Delete";
+            export const Modify = "MarketingDocs:APInvoice:Modify";
+            export const View = "MarketingDocs:APInvoice:View";
+            export const Insert = "MarketingDocs:APInvoice:Insert";
+            export const List = "MarketingDocs:APInvoice:List";
+        }
+
         namespace SalesOrder {
             export const Delete = "MarketingDocs:SalesOrder:Delete";
             export const Modify = "MarketingDocs:SalesOrder:Modify";

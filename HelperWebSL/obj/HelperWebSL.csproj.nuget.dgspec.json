@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\HelperWebSL.csproj": {}
+    "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\HelperWebSL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\HelperWebSL.csproj": {
+    "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\HelperWebSL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\HelperWebSL.csproj",
+        "projectUniqueName": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\HelperWebSL.csproj",
         "projectName": "HelperWebSL",
-        "projectPath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\HelperWebSL.csproj",
+        "projectPath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\HelperWebSL.csproj",
         "packagesPath": "C:\\Users\\shoaib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\obj\\",
+        "outputPath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

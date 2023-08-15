@@ -97,6 +97,24 @@ namespace MVC
 
         }
 
+        public static class APInvoice
+        {
+            public static class Document
+            {
+                public const string DocumentIndex = "~/Modules/APInvoice/Document/DocumentIndex.cshtml";
+            }
+
+        }
+
+        public static class APInvoiceLine
+        {
+            public static class DocumentLine
+            {
+                public const string DocumentLineIndex = "~/Modules/APInvoiceLine/DocumentLine/DocumentLineIndex.cshtml";
+            }
+
+        }
+
         public static class ARInvoice
         {
             public static class Document

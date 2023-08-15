@@ -22,9 +22,9 @@ namespace SAPWebPortal.Web.DependencyInjections
 {
     public interface IB1ServiceLayer
     {
-        public T Create<T>(T row,string storeName);
-        public void Update<T>(T row,string storeName);
-        public T GetSLEntity<T>(T row,string DBName);
+        public T Create<T>(T row, string DBName);
+        public void Update<T>(T row , string DBName);
+        public T GetSLEntity<T>(T row , string DBName);
         public System.Collections.Generic.List<T> GetSLList<T>(string DBName);
         public void CancelDocument<T>(T row, string storeName);
         public System.Collections.Generic.List<T> FromTabletoObject<T>(System.Data.DataTable table);
@@ -41,20 +41,20 @@ namespace SAPWebPortal.Web.DependencyInjections
              
         }
         //Create Business Object
-        public T Create<T>(T row,string storeName)
+        public T Create<T>(T row,string DBName)
         {
             T res = default(T);
             
-            res=AddBO<T>(row,storeName);
+            res=AddBO<T>(row, DBName);
             
             return res;
         }
         //Create Business Object
-        public void Update<T>(T row, string storeName)
+        public void Update<T>(T row, string DBName)
         {
             try
             {
-                UpdateBO<T>(row,storeName);
+                UpdateBO<T>(row, DBName);
             }
             catch (Exception ex)
             {
@@ -66,22 +66,11 @@ namespace SAPWebPortal.Web.DependencyInjections
         
         
 
-        private void ConnectSL(string storeName=null,string DBName=null)
+        private void ConnectSL(string DBName=null)
         {
             try
             {
-                if (!String.IsNullOrEmpty(storeName))
-                {
-                    using (var con = this.sqlConnections.NewFor<SapDatabasesRow>())
-                    {
-                        con.Open();
-                        var shopifycreds = con.List<ShopifySettingsRow>().First(x => x.ApiBaseURL == storeName);
-                        var creds = con.List<SapDatabasesRow>().First(x => x.Id == Convert.ToInt32(shopifycreds.SapDatabase));
-                        this._serviceLayer = new SLConnection(creds.ServiceLayerUrl + "b1s/v2/", creds.CompanyDb, creds.UserName, AES.DecryptString(creds.Password));
-
-                    }
-                }
-                else if(!String.IsNullOrEmpty(DBName))
+                if(!String.IsNullOrEmpty(DBName))
                 {
                     using (var con = this.sqlConnections.NewFor<SapDatabasesRow>())
                     {
@@ -99,11 +88,11 @@ namespace SAPWebPortal.Web.DependencyInjections
                 //throw;
             }
         }
-        private T AddBO<T>(T row,string storeName)
+        private T AddBO<T>(T row,string DBName)
         {
             if (_serviceLayer == null)
             {
-                ConnectSL(storeName:storeName);
+                ConnectSL(DBName);
             }
             var json = JObject.FromObject(row);
             var PropertyToRemove = json.Property("DBName");
@@ -134,11 +123,11 @@ namespace SAPWebPortal.Web.DependencyInjections
 
 
         }
-        private void UpdateBO<T>(T row,string storeName)
+        private void UpdateBO<T>(T row, string DBName)
         {
             if (_serviceLayer == null)
             {
-                ConnectSL(storeName: storeName);
+                ConnectSL(DBName);
             }
             var json = JObject.FromObject(row);
             var PropertyToRemove = json.Property("DBName");
@@ -163,20 +152,24 @@ namespace SAPWebPortal.Web.DependencyInjections
             {
                 var _row = row as Orders.DocumentRow;
                 req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry);
+            } 
+            else if (typeof(APInvoice.DocumentRow) == row.GetType())
+            {
+                var _row = row as Orders.DocumentRow;
+                req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry);
             }
             //ExceptionsController.Log(new Exception("Data"), JsonConvert.SerializeObject(row));
 
             req = req.WithReplaceCollectionsOnPatch();
             req.PatchStringAsync(json.ToString()).GetAwaiter().GetResult();
         }
-        public T GetSLEntity<T>(T row,string DBName)
+        public T GetSLEntity<T>(T row, string DBName)
         {
-           // ExceptionsController.Log(new Exception("ServiceLayer Obj"),JsonConvert.SerializeObject(_serviceLayer));
             if (_serviceLayer == null)
             {
-                ConnectSL(DBName: DBName);
+                ConnectSL(DBName);
             }
-            
+
             var attributeobj = row.GetType().GetAttribute<ServiceLayerAttribute>();
             T req = default(T);
             
@@ -195,6 +188,16 @@ namespace SAPWebPortal.Web.DependencyInjections
                     req = this._serviceLayer.Request(attributeobj.ModuleName, _row.ItemCode).GetAsync<T>().Result; ;
                 }
                 else if (typeof(Orders.DocumentRow) == row.GetType())
+                {
+                    var _row = row as Orders.DocumentRow;
+                    req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(ARInvoice.DocumentRow) == row.GetType())
+                {
+                    var _row = row as Orders.DocumentRow;
+                    req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(APInvoice.DocumentRow) == row.GetType())
                 {
                     var _row = row as Orders.DocumentRow;
                     req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
@@ -223,7 +226,7 @@ namespace SAPWebPortal.Web.DependencyInjections
             {
                 if (_serviceLayer == null)
                 {
-                    ConnectSL(storeName: storeName);
+                    ConnectSL();
                 }
                 SLRequest req = null;
                 if (row.GetType() == typeof(Orders.DocumentRow))

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JEITSmf06nJ5inMA5fbb3mkkjiXNbZhKaayxt2whQORWt+bOLuev5/IP8TjpWsaOVvUJ9QUlbRj6/xyeHSuHgQ==",
+  "dgSpecHash": "l5YiS+DV98T09taF1+RPMyvKlCsmz7vZ6/ACXKa5uD3SgeYzQ16PIdrylKHV7lQaA9HJ03LnUB1AYcBjj1OdGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\SBO_DESK\\HelperWebSL\\HelperWebSL.csproj",
+  "projectFilePath": "C:\\Users\\shoaib\\Desktop\\PDFs & Docs\\SBODeskBase\\Code\\SBODeskBase\\SBODeskBase\\HelperWebSL\\HelperWebSL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shoaib\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\shoaib\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
