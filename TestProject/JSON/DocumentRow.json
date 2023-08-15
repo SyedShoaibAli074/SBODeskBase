@@ -1,0 +1,46 @@
+{
+  "Entity": {
+    "Series": 106,
+    "DocNum": 2013,
+    "DocType": "dDocument_Items",
+    "DocDate": "2022-11-16T00:00:00.000",
+    "DocDueDate": "2022-11-17T00:00:00.000",
+    "CardCode": "C30000",
+    "CardName": "Microchips",
+    "DocTotal": null,
+    "VatSum": 54.0,
+    "SalesPersonCode": 6,
+    "AttachmentEntry": null,
+    "DiscountPercent": 0.0,
+    "DocumentsOwner": null,
+    "DocumentStatus": "bost_Open",
+    "DocCurrency": "AUD",
+    "TotalDiscount": 0.0,
+    "UserSign": null,
+    "Comments": "",
+    "Project": "",
+    "GroupNum": "Net30",
+    "PayToCode": "Bill To",
+    "ShipToCode": "",
+    "U_ApprovalGUID": "0c9cc97f-87ac-4d44-875a-3bc4626cd109",
+    "U_Address": "abc123",
+    "NumAtCard": "",
+    "DocumentLines": [
+      {
+        "ItemCode": "R00002",
+        "ItemDescription": "Printer Paper A4 Recycled",
+        "Quantity": 3.0,
+        "InventoryQuantity": 144.0,
+        "UnitsOfMeasurment": 48.0,
+        "VatGroup": "S1",
+        "UnitPrice": 180.0,
+        "DiscountPercent": 0.0,
+        "WarehouseCode": "01",
+        "UoMCode": "Paper",
+        "LineTotal": null,
+        "GrossTotal": 594.0,
+        "TaxTotal": 54.0
+      }
+    ]
+  }
+}

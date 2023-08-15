@@ -1,0 +1,90 @@
+{
+  "UserTables": [
+    
+    //{ 
+    //  "TableName": "IPBATCH1",
+    //  "TableDescription": "Incoming Payment Batch Rows",
+    //  "TableType": "bott_DocumentLines",
+    //  "Archivable": "tNO",
+    //  "ArchiveDateField": null
+    //}
+
+  ],
+  "UserFields": [
+    {
+      "Name": "RecQty",
+      "Type": "db_Alpha",
+      "Size": 50,
+      "Description": "Received Quantity",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "WTQ1",
+      "FieldID": 0,
+      "EditSize": 50,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    } ,
+    {
+      "Name":"Sync",
+      "Type":"db_Alpha",
+      "Size":1,
+      "Description":"Sync",
+      "SubType":"st_None",
+      "LinkedTable":null,
+      "DefaultValue":null,
+      "TableName":"OIVK",
+      "FieldID":0,
+      "EditSize":1,
+      "Mandatory":"tNO",
+      "LinkedUDO":null,
+      "LinkedSystemObject":null,
+      "ValidValuesMD":[]
+    }
+  ],
+  "UserObjects": [
+    //make a udo with name INCOPB having tables OIPBATCH, IPBATCH1
+    //{
+    //  "TableName": "OIPBATCH",
+    //  "Code": "INCOPB",
+    //  "LogTableName": null,
+    //  "CanCreateDefaultForm": "tNO",
+    //  "ObjectType": "boud_Document",
+    //  "ExtensionName": null,
+    //  "CanCancel": "tNO",
+    //  "CanDelete": "tNO",
+    //  "CanLog": "tNO",
+    //  "ManageSeries": "tNO",
+    //  "CanFind": "tNO",
+    //  "CanYearTransfer": "tNO",
+    //  "Name": "INCOPB",
+    //  "CanClose": "tNO",
+    //  "OverwriteDllfile": "tYES",
+    //  "UseUniqueFormType": "tYES",
+    //  "CanArchive": "tNO",
+    //  "MenuItem": "tNO",
+    //  "MenuCaption": "",
+    //  "FatherMenuID": null,
+    //  "Position": null,
+    //  "MenuUID": null,
+    //  "EnableEnhancedForm": "tYES",
+    //  "RebuildEnhancedForm": "tYES",
+    //  "FormSRF": null,
+    //  "UserObjectMD_ChildTables": [
+    //    {
+    //      "SonNumber": 1,
+    //      "TableName": "IPBATCH1",
+    //      "LogTableName": null,
+    //      "Code": "INCOPB",
+    //      "ObjectName": "IPBATCH1"
+    //    }
+    //  ],
+    //  "UserObjectMD_FindColumns": [],
+    //  "UserObjectMD_FormColumns": [],
+    //  "UserObjectMD_EnhancedFormColumns": []
+    //}
+
+  ]
+}

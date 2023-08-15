@@ -1,0 +1,256 @@
+{
+  "RootNamespace": "SAPWebPortal",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.BP",
+          "Identifier": "Bp",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.BusinessPartner",
+          "Identifier": "BusinessPartner",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.IPBATCH1",
+          "Identifier": "Ipbatch1",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Item",
+          "Identifier": "Item",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Log",
+          "Identifier": "Log",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.OIPBATCH",
+          "Identifier": "Oipbatch",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.RDOC",
+          "Identifier": "Reports",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.RecordCounts",
+          "Identifier": "RecordCounts",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Report_UserDetails",
+          "Identifier": "UsersDetails",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Report_Users",
+          "Identifier": "Report_Users",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.SapDatabases",
+          "Identifier": "SapDatabases",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.SAPToShopifySyncLog",
+          "Identifier": "SapToShopifySyncLog",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Sessions",
+          "Identifier": "Sessions",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Settings",
+          "Identifier": "Settings",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ShopifyLocationDetail",
+          "Identifier": "ShopifyLocationDetail",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ShopifyWebkookSettings",
+          "Identifier": "ShopifyWebkookSettings",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.UserDetail1",
+          "Identifier": "UserDetail1",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.UserDetail2",
+          "Identifier": "UserDetail2",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.UserFormAuthorizations",
+          "Identifier": "UserFormAuthorizations",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.UserFormAuthorizationsDetails",
+          "Identifier": "UserFormAuthorizationsDetails",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Users",
+          "Identifier": "Users",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.AdditionalExpenses",
+          "Identifier": "AdditionalExpense",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.ApprovalRequest",
+          "Identifier": "ApprovalRequest",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.ApprovalRequestDecision",
+          "Identifier": "ApprovalRequestDecision",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.ApprovalRequestLine",
+          "Identifier": "ApprovalRequestLine",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.BusinessPartnerGroup",
+          "Identifier": "BusinessPartnerGroup",
+          "Module": "Default",
+          "PermissionKey": "Administration:BusinessPartnerGroup"
+        },
+        {
+          "Tablename": "SAPB1.BusinessPartnerGroups",
+          "Identifier": "BusinessPartnerGroups",
+          "Module": "BusinessPartnerGroups",
+          "PermissionKey": "Administration:BusinessPartnerGroups)"
+        },
+        {
+          "Tablename": "SAPB1.ChartOfAccount",
+          "Identifier": "ChartOfAccount",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.Document",
+          "Identifier": "Document",
+          "Module": "ARInvoice",
+          "PermissionKey": "ARInvoice"
+        },
+        {
+          "Tablename": "SAPB1.DocumentAdditionalExpense",
+          "Identifier": "DocumentAdditionalExpense",
+          "Module": "DraftsExpense",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.DocumentLine",
+          "Identifier": "DocumentLine",
+          "Module": "PurchaseRequestLine",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.InventoryCounting",
+          "Identifier": "InventoryCounting",
+          "Module": "InventoryCounting",
+          "PermissionKey": "InventoryCounting"
+        },
+        {
+          "Tablename": "SAPB1.InventoryCountingLine",
+          "Identifier": "InventoryCountingLine",
+          "Module": "InventoryCounting",
+          "PermissionKey": "InventoryCounting"
+        },
+        {
+          "Tablename": "SAPB1.InventoryTransferRequest",
+          "Identifier": "InventoryTransferRequests",
+          "Module": "InventoryTransferRequest",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.Orders",
+          "Identifier": "Orders",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.StockTransfer",
+          "Identifier": "StockTransfer",
+          "Module": "InventoryTransferRequest",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.StockTransferLine",
+          "Identifier": "StockTransferLine",
+          "Module": "InventoryTransferRequestLine",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.VatGroups",
+          "Identifier": "VatGroup",
+          "Module": "VatGroups",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "SAPB1.Warehouses",
+          "Identifier": "Warehouse",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.2.4.0"
+  }
+}

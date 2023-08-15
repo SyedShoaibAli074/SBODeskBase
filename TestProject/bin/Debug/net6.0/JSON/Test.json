@@ -1,0 +1,61 @@
+{
+  "Entity": {
+    "CompanyDb": "1",
+    "CreatedBy": "admin",
+    "DocNum": "",
+    "DocEntry": "",
+    "Date": "2021-09-13T20:40:00.000",
+    "SupplierName": "",
+    "Remarks": "",
+    "CompanyName": "SBODEMOAU",
+    "ItemCode": "P20001",
+    "ItemName": "4GB Memory Server",
+    "Scan": "A6-000287",
+    "Cell": 2,
+    "Row": 0,
+    "Quantity_Scanned": 1,
+    "DetailList": [
+      {
+        "DId": 0,
+        "HId": 0,
+        "LineNum": "0",
+        "ItemCode": "C00007",
+        "ItemName": "Hard Disk 3TB",
+        "Quantity": 1,
+        "Status": "None",
+        "Quantity_Scanned": 1
+      },
+      {
+        "DId": 1,
+        "HId": 0,
+        "LineNum": "1",
+        "ItemCode": "C00001",
+        "ItemName": "Motherboard BTX",
+        "Quantity": 1,
+        "Status": "None",
+        "Quantity_Scanned": 1
+      },
+      {
+        "DId": 2,
+        "HId": 0,
+        "LineNum": "2",
+        "ItemCode": "C00011",
+        "ItemName": "Memory DDR RAM 8GB",
+        "Quantity": 8,
+        "Status": "None",
+        "Quantity_Scanned": 8
+      },
+      {
+        "DId": 3,
+        "HId": 0,
+        "LineNum": "3",
+        "ItemCode": "A00006",
+        "ItemName": "Rainbow 1200 Laser Series",
+        "Quantity": 2,
+        "Quantity_Scanned": 2,
+        "BatchNum": "A6-000286,A6-000285",
+        "Status": "SN"
+      }
+    ]
+  }
+}

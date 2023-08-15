@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Serenity.Net.Entity</AssemblyName>
+    <Title>Serenity Platform - Data Entity Library</Title>
+    <Description>Contains entity classes, fields and related functions...</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Serenity.Net.Core\Serenity.Net.Core.csproj" />
+    <ProjectReference Include="..\Serenity.Net.Data\Serenity.Net.Data.csproj" />
+  </ItemGroup>
+</Project>

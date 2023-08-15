@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Serenity.CodeGenerator.GenerateCommand">
+    <Position X="2.5" Y="2" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Serenity.CodeGenerator.GenerateCommand.AppSettingsFormat">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Serenity.CodeGenerator.GenerateCommand.AppSettingsFormat.ConnectionInfo">
+            <TypeIdentifier>
+              <NewMemberFileName>Commands\GenerateCommand.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Commands\GenerateCommand.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Serenity.CodeGenerator.GenerateCommand.Interactive">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Serenity.CodeGenerator.GenerateCommand.Interactive.AppSettingsFormat">
+            <Compartments>
+              <Compartment Name="Properties" Collapsed="true" />
+              <Compartment Name="Methods" Collapsed="true" />
+              <Compartment Name="Nested Types" Collapsed="false" />
+            </Compartments>
+            <NestedTypes>
+              <Class Name="Serenity.CodeGenerator.GenerateCommand.Interactive.AppSettingsFormat.ConnectionInfo">
+                <Compartments>
+                  <Compartment Name="Properties" Collapsed="true" />
+                </Compartments>
+                <TypeIdentifier>
+                  <NewMemberFileName>Commands\GenerateCommand.Interactive.cs</NewMemberFileName>
+                </TypeIdentifier>
+              </Class>
+            </NestedTypes>
+            <TypeIdentifier>
+              <NewMemberFileName>Commands\GenerateCommand.Interactive.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Commands\GenerateCommand.Interactive.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Commands\GenerateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serenity.CodeGenerator.SBOGenerateCommand">
+    <Position X="7.25" Y="2" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Serenity.CodeGenerator.SBOGenerateCommand.Interactive">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Serenity.CodeGenerator.SBOGenerateCommand.Interactive.AppSettingsFormat">
+            <Compartments>
+              <Compartment Name="Properties" Collapsed="true" />
+              <Compartment Name="Methods" Collapsed="true" />
+              <Compartment Name="Nested Types" Collapsed="false" />
+            </Compartments>
+            <NestedTypes>
+              <Class Name="Serenity.CodeGenerator.SBOGenerateCommand.Interactive.AppSettingsFormat.ConnectionInfo">
+                <Compartments>
+                  <Compartment Name="Properties" Collapsed="true" />
+                </Compartments>
+                <TypeIdentifier>
+                  <NewMemberFileName>Commands\SBOGenerateCommand.cs</NewMemberFileName>
+                </TypeIdentifier>
+              </Class>
+            </NestedTypes>
+            <TypeIdentifier>
+              <NewMemberFileName>Commands\SBOGenerateCommand.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Commands\SBOGenerateCommand.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Serenity.CodeGenerator.SBOGenerateCommand.AppSettingsFormat">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Serenity.CodeGenerator.SBOGenerateCommand.AppSettingsFormat.ConnectionInfo" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Commands\SBOGenerateCommand.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Commands\SBOGenerateCommand.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Commands\SBOGenerateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,10 @@
+{
+  "Take": 20,
+  "Sort": [ "DocEntry DESC" ],
+  "IncludeColumns": [ "DocEntry", "CardCode", "CardName", "VatSum", "DocTotal" ],
+  "EqualityFilter": {
+    "DocEntry": null,
+    "CardCode": "",
+    "CardName": ""
+  }
+}

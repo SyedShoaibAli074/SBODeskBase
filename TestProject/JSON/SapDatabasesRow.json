@@ -1,0 +1,19 @@
+{
+  "Entity": {
+    "ServerName": "HDB@192.168.10.230:30013",
+    "ODBCServer": "192.168.10.230:30015",
+    "DbServerType": "dst_HANADB",
+    "LicenseServer": "192.168.10.230:40000",
+    "CompanyDb": "SBODEMOAU02",
+    "DbUserName": "SYSTEM",
+    "DbPassword": "A3it@786",
+    "UserName": "manager",
+    "Password": "1234",
+    "Alias": "data",
+    "ServiceLayerUrl": "https://192.168.10.230:50000/",
+    "ServiceLayerVersion": "v2",
+    "DBDriver": "HDBODBC",
+    "IsDefault": true,
+    "CreateUDFs": 1
+  }
+}

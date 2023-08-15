@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sentry.NLog</name>
+    </assembly>
+    <members>
+        <member name="T:NLog.ConfigurationExtensions">
+            <summary>
+            NLog configuration extensions.
+            </summary>
+        </member>
+        <member name="M:NLog.ConfigurationExtensions.AddSentry(NLog.Config.LoggingConfiguration,System.Action{Sentry.NLog.SentryNLogOptions})">
+            <summary>
+            Adds a target for Sentry to the NLog configuration.
+            </summary>
+            <remarks>
+            If DSN is not set, the SDK will look for an environment variable called SENTRY_DSN. If nothing is
+            found, SDK is disabled.
+            </remarks>
+            <param name="configuration">The NLog configuration.</param>
+            <param name="optionsConfig">An optional action for configuring the Sentry target options.</param>
+            <returns>The configuration.</returns>
+        </member>
+        <member name="M:NLog.ConfigurationExtensions.AddSentry(NLog.Config.LoggingConfiguration,System.String,System.Action{Sentry.NLog.SentryNLogOptions})">
+            <summary>
+            Adds a target for Sentry to the NLog configuration.
+            </summary>
+            <param name="configuration">The NLog configuration.</param>
+            <param name="dsn">
+            The sentry DSN. If DSN is not set, the SDK will look for an environment variable called SENTRY_DSN.
+            If nothing is found, SDK is disabled.
+            </param>
+            <param name="optionsConfig">An optional action for configuring the Sentry target options.</param>
+            <returns>The configuration.</returns>
+        </member>
+        <member name="M:NLog.ConfigurationExtensions.AddSentry(NLog.Config.LoggingConfiguration,System.String,System.String,System.Action{Sentry.NLog.SentryNLogOptions})">
+            <summary>
+            Adds a target for Sentry to the NLog configuration.
+            </summary>
+            <param name="configuration">The NLog configuration.</param>
+            <param name="dsn">The sentry DSN.</param>
+            <param name="targetName">The name to give the new target.</param>
+            <param name="optionsConfig">An optional action for configuring the Sentry target options.</param>
+            <returns>The configuration.</returns>
+        </member>
+        <member name="M:NLog.ConfigurationExtensions.AddTag(Sentry.NLog.SentryNLogOptions,System.String,NLog.Layouts.Layout)">
+            <summary>
+            Add additional tags that will be sent with every message.
+            </summary>
+            <param name="options">The options being configured.</param>
+            <param name="name">The name of the tag.</param>
+            <param name="layout">The layout to be rendered for the tag</param>
+        </member>
+        <member name="T:Sentry.NLog.Constants">
+            <summary>
+            NLog Constant Values.
+            </summary>
+        </member>
+        <member name="F:Sentry.NLog.Constants.SdkName">
+            <summary>
+            NLog SDK name
+            </summary>
+        </member>
+        <member name="T:Sentry.NLog.SentryNLogOptions">
+            <summary>
+            Sentry Options for NLog logging. All properties can be configured via code or in NLog.config xml file.
+            </summary>
+            <inheritdoc />
+        </member>
+        <member name="M:Sentry.NLog.SentryNLogOptions.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.ShutdownTimeoutSeconds">
+            <summary>
+            How many seconds to wait after triggering <see cref="M:NLog.LogManager.Shutdown"/> before just shutting down the
+            Sentry sdk.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.MinimumEventLevel">
+            <summary>
+            Minimum log level for events to trigger a send to Sentry. Defaults to <see cref="M:LogLevel.Error" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.MinimumBreadcrumbLevel">
+            <summary>
+            Minimum log level to be included in the breadcrumb. Defaults to <see cref="M:LogLevel.Info" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.IgnoreEventsWithNoException">
+            <summary>
+            Set this to <see langword="true" /> to ignore log messages that don't contain an exception.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.IncludeEventPropertiesAsTags">
+            <summary>
+            Determines whether event properties will be sent to sentry as Tags or not. Defaults to <see langword="false" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.IncludeEventDataOnBreadcrumbs">
+            <summary>
+            Determines whether or not to include event-level data as data in breadcrumbs for future errors.
+            Defaults to <see langword="false" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.BreadcrumbLayout">
+            <summary>
+            Custom layout for breadcrumbs.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.BreadcrumbCategoryLayout">
+            <summary>
+            Custom layout for breadcrumbs category
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.Layout">
+            <summary>
+            Configured layout for rendering SentryEvent message
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.DsnLayout">
+            <summary>
+            Configured layout for Dsn-Address to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.ReleaseLayout">
+            <summary>
+            Configured layout for application Release version to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.EnvironmentLayout">
+            <summary>
+            Configured layout for application Environment to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.Tags">
+            <summary>
+            Any additional tags to apply to each logged message.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.InitializeSdk">
+            <summary>
+            Whether the NLog integration should initialize the SDK.
+            </summary>
+            <remarks>
+            By default, if a DSN is provided to the NLog integration it will initialize the SDK.
+            This might be not ideal when using multiple integrations in case you want another one doing the Init.
+            </remarks>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogOptions.User">
+            <summary>
+            Optionally configure one or more parts of the user information to be rendered dynamically from an NLog layout
+            </summary>
+        </member>
+        <member name="T:Sentry.NLog.SentryNLogUser">
+            <summary>
+            A helper class used to configure Sentry user properties using NLog layouts
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.Id">
+            <summary>
+            A <see cref="T:NLog.Layouts.Layout"/> used to dynamically specify the id of a user for a sentry event.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.Username">
+            <summary>
+            A <see cref="T:NLog.Layouts.Layout"/> used to dynamically specify the username of a user for a sentry event.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.Email">
+            <summary>
+            A <see cref="T:NLog.Layouts.Layout"/> used to dynamically specify the email of a user for a sentry event.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.IpAddress">
+            <summary>
+            A <see cref="T:NLog.Layouts.Layout"/> used to dynamically specify the ip address of a user for a sentry event.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.Segment">
+            <summary>
+            A <see cref="T:NLog.Layouts.Layout"/> used to dynamically specify the segment of a user for a sentry event.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryNLogUser.Other">
+            <summary>
+            Additional information about the user
+            </summary>
+            <summary>
+            Add any desired additional tags that will be sent with every message.
+            </summary>
+        </member>
+        <member name="T:Sentry.NLog.SentryTarget">
+            <summary>
+            Sentry NLog Target.
+            </summary>
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:Sentry.NLog.SentryTarget"/>.
+            </summary>
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.#ctor(Sentry.NLog.SentryNLogOptions)">
+            <summary>
+            Creates a new instance of <see cref="T:Sentry.NLog.SentryTarget"/>.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.Options">
+            <summary>
+            Options for both the <see cref="T:Sentry.NLog.SentryTarget"/> and the sentry sdk itself.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.Tags">
+            <summary>
+            Add any desired additional tags that will be sent with every message.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.Dsn">
+            <summary>
+            Configured layout for Data Source Name of a given project in Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.Release">
+            <summary>
+            Configured layout for application Release version to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.Environment">
+            <summary>
+            Configured layout for application Environment to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.BreadcrumbLayout">
+            <summary>
+            An optional layout specific to breadcrumbs. If not set, uses the same layout as the standard <see cref="P:NLog.Targets.TargetWithContext.Layout"/>.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.BreadcrumbCategory">
+            <summary>
+            Configured layout for application Environment to Sentry
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.MinimumEventLevel">
+            <summary>
+            Minimum log level for events to trigger a send to Sentry. Defaults to <see cref="M:LogLevel.Error" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.MinimumBreadcrumbLevel">
+            <summary>
+            Minimum log level to be included in the breadcrumb. Defaults to <see cref="M:LogLevel.Info" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.InitializeSdk">
+            <summary>
+            Whether the NLog integration should initialize the SDK.
+            </summary>
+            <remarks>
+            By default, if a DSN is provided to the NLog integration it will initialize the SDK.
+            This might be not ideal when using multiple integrations in case you want another one doing the Init.
+            </remarks>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.IgnoreEventsWithNoException">
+            <summary>
+            Set this to <see langword="true" /> to ignore log messages that don't contain an exception.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.IncludeEventPropertiesAsTags">
+            <summary>
+            Determines whether event properties will be sent to sentry as Tags or not.
+            Defaults to <see langword="false" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.IncludeEventDataOnBreadcrumbs">
+            <summary>
+            Determines whether or not to include event-level data as data in breadcrumbs for future errors.
+            Defaults to <see langword="false" />.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.ShutdownTimeoutSeconds">
+            <summary>
+            How many seconds to wait after triggering <see cref="M:NLog.LogManager.Shutdown"/> before just shutting down the
+            Sentry sdk.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.FlushTimeoutSeconds">
+            <summary>
+            How long to wait for the flush to finish, in seconds. Defaults to 2 seconds.
+            </summary>
+        </member>
+        <member name="P:Sentry.NLog.SentryTarget.User">
+            <summary>
+            Optionally configure one or more parts of the user information to be rendered dynamically from an NLog layout
+            </summary>
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.CloseTarget">
+            <inheritdoc />
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.InitializeTarget">
+            <inheritdoc />
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.FlushAsync(NLog.Common.AsyncContinuation)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sentry.NLog.SentryTarget.Write(NLog.LogEventInfo)">
+            <summary>
+            <para>
+            If the event level &gt;= the <see cref="P:Sentry.NLog.SentryTarget.MinimumEventLevel"/>, the
+            <paramref name="logEvent"/> is captured as an event by sentry.
+            </para>
+            <para>
+            If the event level is &gt;= the <see cref="P:Sentry.NLog.SentryTarget.MinimumBreadcrumbLevel"/>, the event is added
+            as a breadcrumb to the Sentry Sdk.
+            </para>
+            <para>
+            If sentry is not enabled, this is a No-op.
+            </para>
+            </summary>
+            <param name="logEvent">The event that is being logged.</param>
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,97 @@
+﻿@inject Serenity.ITextLocalizer Localizer
+ @*print "bismillah"*@
+ <!--Table for showing sessiongs-->
+<!--GetSessions-->
+<!-- refresh button -->
+
+<!--refresh button-->
+<div>
+    <button type="button" class="btn btn-primary" onclick="refresh()">Refresh</button>
+</div>
+<table width="100">
+    <tr>
+        <td>
+            <!--width to the page--> 
+            <div id="GetSessions" style="width:1000px;height:250px;"></div>
+        </td>
+    </tr>
+</table>
+<table width="500">
+    <tr>
+        <td>
+            <div id="GetDataDictionaries" style="width:1000px;height:500px;"></div>
+        </td>
+    </tr>
+</table>
+<!-- java script tag-->
+<script type="text/javascript">
+    function refresh() {
+        location.reload();
+    }
+    var grid;
+    var dataView;
+    var data = [];
+    jQuery(function () {
+       $.ajax({
+           url: "Services/DevTools/DataDictionaryView/GetSessions",
+           type: "GET" ,
+
+            success: function (data) {   
+                //convert data to json
+                var json = data;
+                
+                 var columns = [] 
+                    //loop through json and get the columns
+                    var firstvalue = json[0];
+
+                    for (var key in firstvalue) {
+                    //console log the key
+                    console.log(key);
+                            columns.push({id : key,name : key,field : key, minWidth : 200});
+                    } 
+                    console.log(columns);
+                 var options = {
+                    enableCellNavigation: true,
+                    enableColumnReorder: false
+                }; 
+                    var grid = new Slick.Grid("#GetSessions", json, columns, options);
+                    console.log(grid);
+            }
+            });
+        $.ajax({
+            url: "Services/DevTools/DataDictionaryView/GetDataDictionaries",
+            type: "GET",
+            success: function (data) {
+                //convert data to json
+                var json = data;
+                var columns = []
+                //loop through json and get the columns
+                var firstvalue = json[0];
+
+                for (var key in firstvalue) {
+                    //console log the key 
+                    columns.push({ id: key, name: key, field: key, minWidth: 200, sortable: true });
+                }
+                var options = {
+                    enableCellNavigation: true,
+                    enableColumnReorder: false
+                };
+                //filter the columns 
+                grid = new Slick.Grid("#GetDataDictionaries",json , columns, options);
+                grid.onSort.subscribe(function(e, args){ // args: sort information. 
+                        var field = args.sortCol.field;
+                        
+                        json.sort(function(a, b){
+                            var result = 
+                                a[field] > b[field] ? 1 :
+                                a[field] < b[field] ? -1 :
+                                0;
+                                
+                            return args.sortAsc ? result : -result;
+                        }); 
+                        grid.invalidate();			
+                    });
+        }
+        });
+       });  
+</script>

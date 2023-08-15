@@ -1,0 +1,33 @@
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.deps.json
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.dll
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.pdb
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\Sentry.Attributes.cs
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.dll
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.deps.json
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.deps.json
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Release\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\Sentry.Attributes.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Release\netstandard2.0\HelperWebSL.pdb

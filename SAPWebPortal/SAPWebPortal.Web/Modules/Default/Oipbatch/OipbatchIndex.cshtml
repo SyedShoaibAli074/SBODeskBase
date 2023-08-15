@@ -1,0 +1,25 @@
+﻿@inject Serenity.ITextLocalizer Localizer
+@{
+    ViewData["Title"] = Localizer.Get("Db.Default.Oipbatch.EntityPlural");
+}
+
+<div id="GridDiv"></div>
+
+<script type="text/javascript">
+    jQuery(function () {
+        new SAPWebPortal.Default.OipbatchGrid($('#GridDiv'), {}).init();
+
+        Q.initFullHeightGridPage($('#GridDiv'));
+        var cols = SAPWebPortal.Default.OipbatchGrid.getColumns();
+        cols[0].width = 120;
+        grid.setColumns(cols);
+        console.log(cols[0]);
+        console.log(cols);
+     
+    });
+    //$("#resize").click(function () {
+    //    var cols = grid.getColumns();
+    //    cols[0].width = 120;
+    //    grid.setColumns(cols);
+    //});
+</script>

@@ -1,0 +1,299 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>SAPWebPortal.Web</AssemblyName>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <SerenitySrc>..\..\Serenity\src\</SerenitySrc>
+    <DotNetSergen>dotnet sergen</DotNetSergen>
+    <DotNetSergenDir>$(SerenitySrc)Serenity.Net.CodeGenerator\bin"</DotNetSergenDir>
+    <DotNetSergen Condition="Exists('$(DotNetSergenDir)sergen')">$(DotNetSergenDir)sergen</DotNetSergen>
+    <DotNetSergen Condition="Exists('$(DotNetSergenDir)sergen.exe')">$(DotNetSergenDir)sergen.exe</DotNetSergen>
+    <CommonSrc>..\..\common-features\src\</CommonSrc>
+    <ProSrc>..\..\pro-features\src\</ProSrc>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <UserSecretsId>da134fd3-536f-479d-99df-01b5df0d5e96</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants></DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants></DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\**\*.sql" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+    <Compile Remove="Modules\Default\BusinessPartnerAddresses\**" />
+    <Content Remove="Modules\Default\BusinessPartnerAddresses\**" />
+    <EmbeddedResource Remove="Modules\Default\BusinessPartnerAddresses\**" />
+    <None Remove="Modules\Default\BusinessPartnerAddresses\**" />
+    <TypeScriptCompile Remove="Modules\Default\BusinessPartnerAddresses\**" />
+    <Compile Remove="Helpers\ExcelImportRequest.cs" />
+    <Compile Remove="Helpers\GetNextNumberHelper.cs" />
+    <Compile Remove="Helpers\GetNextNumberRequest.cs" />
+    <Compile Remove="Helpers\SAPDBNameHandler.cs" />
+    <Compile Remove="Helpers\SL_FieldMappingAttribute.cs" />
+    <Compile Remove="Helpers\SqlExceptionHelper.cs" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalDecisions.CrystalReports.Engine.dll" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalDecisions.ReportSource.dll" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalDecisions.Shared.dll" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalReportsHelper.exe" />
+    <None Remove="App_Data\CrystalReportHelper\CrystalReportsHelper.pdb" />
+    <None Remove="App_Data\CrystalReportHelper\Newtonsoft.Json.dll" />
+    <None Remove="App_Data\CrystalReportHelper\Newtonsoft.Json.xml" />
+    <None Remove="App_Data\CrystalReportHelper\SAPBusinessObjects.WPF.Viewer.dll" />
+    <None Remove="App_Data\CrystalReportHelper\SAPBusinessObjects.WPF.ViewerShared.dll" />
+    <None Remove="App_Data\CrystalReportHelper\stdole.dll" />
+    <None Remove="Helpers\BasicProgressDialog.ts" />
+    <None Remove="Helpers\BulkServiceAction.ts" />
+    <None Remove="Helpers\DialogUtils.ts" />
+    <None Remove="Helpers\EnumSelectFormatter.ts" />
+    <None Remove="Helpers\ExcelExportHelper.ts" />
+    <None Remove="Helpers\GridEditorBase.ts" />
+    <None Remove="Helpers\GridEditorDialog.ts" />
+    <None Remove="Helpers\LanguageList.ts" />
+    <None Remove="Helpers\StaticTextBlock.ts" />
+    <None Remove="Imports\SaveRequest.ts" />
+    <None Remove="Modules\Administration\Log\ErrorEditor.ts" />
+    <None Remove="Modules\Common\Helpers\DocTotalHelper.ts" />
+    <None Remove="Modules\Default\ApprovalRequestDecision\ApprovalRequestDecisionEditor.ts" />
+    <None Remove="Modules\Default\ApprovalRequestLine\ApprovalRequestLineEditor.ts" />
+    <None Remove="Modules\Default\BusinessPartnerGroup\BusinessPartnerGroupGrid.ts.20220501_085748.bak" />
+    <None Remove="Modules\Default\Log\DirectionEditor.ts" />
+    <None Remove="Modules\Default\SapDatabases\dbTypeEditor - Copy.ts" />
+    <None Remove="Modules\Default\ShopifyLocationDetail\ShopifyLocationDetailEditor.ts" />
+    <None Remove="Modules\Default\UsersDetails\bxddn2gt.5hs~" />
+    <None Remove="Modules\Delivery\Document\DocumentDialog.ts" />
+    <None Remove="Modules\Delivery\Document\DocumentGrid.ts" />
+    <None Remove="Modules\DraftsExpense\DocumentAdditionalExpense\DocumentAdditionalExpenseEditor.ts" />
+    <None Remove="Modules\DeliveryLine\DocumentLine\DocumentLineDialog.ts" />
+    <None Remove="Modules\DeliveryLine\DocumentLine\DocumentLineEditor.ts" />
+    <None Remove="Modules\DeliveryLine\DocumentLine\DocumentLineGrid.ts" />
+    <None Remove="Modules\DraftsLine\DocumentLine\DocumentLineEditor.ts" />
+    <None Remove="Modules\DropDownEnums\ApprovalDocsEditor.ts" />
+    <None Remove="Modules\DropDownEnums\ApprovalLineStatusEditor.ts" />
+    <None Remove="Modules\DropDownEnums\ApprovalStatusEditor.ts" />
+    <None Remove="Modules\DropDownEnums\CardTypeEditor.ts" />
+    <None Remove="Modules\DropDownEnums\DocStatusEditor.ts" />
+    <None Remove="Modules\DropDownEnums\DocTypeEditor.ts" />
+    <None Remove="Modules\DropDownEnums\DraftDocsEditor.ts" />
+    <None Remove="Modules\DropDownEnums\IsYOrNEditor.ts" />
+    <None Remove="Modules\OrdersExpense\DocumentAdditionalExpense\DocumentAdditionalExpenseEditor.ts" />
+    <None Remove="Modules\OrdersLine\DocumentLine\DocumentLineEditor.ts" />
+    <None Remove="Modules\Orders\AddressExtension\AddressExtensionDialog.ts" />
+    <None Remove="Modules\Orders\AddressExtension\AddressExtensionGrid.ts" />
+    <None Remove="Modules\Orders\Document\DocumentRow.cs~RF25d6403c.TMP" />
+    <None Remove="Modules\QuotationsExpense\DocumentAdditionalExpense\DocumentAdditionalExpenseEditor.ts" />
+    <None Remove="Modules\QuotationsLine\DocumentLine\DocumentLineEditor.ts" />
+    <TypeScriptCompile Remove="Helpers\BasicProgressDialog.ts" />
+    <TypeScriptCompile Remove="Helpers\BulkServiceAction.ts" />
+    <TypeScriptCompile Remove="Helpers\DialogUtils.ts" />
+    <TypeScriptCompile Remove="Helpers\EnumSelectFormatter.ts" />
+    <TypeScriptCompile Remove="Helpers\ExcelExportHelper.ts" />
+    <TypeScriptCompile Remove="Helpers\GridEditorBase.ts" />
+    <TypeScriptCompile Remove="Helpers\GridEditorDialog.ts" />
+    <TypeScriptCompile Remove="Helpers\LanguageList.ts" />
+    <TypeScriptCompile Remove="Helpers\StaticTextBlock.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\Default.ItemColumns.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\Default.ItemForm.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\Default.ItemRow.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\Default.ItemService.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditActionType.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogColumns.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogForm.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogRow.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogService.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogViewerRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogViewerResponse.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.AuditLogViewerService.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenConnection.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenGenerateOptions.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenGenerateRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenListTablesRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenService.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.DevTools.SergenTable.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.EntityReportRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.ListReportRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.Months.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.ReplaceRowForm.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.ReplaceRowRequest.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.ReplaceRowResponse.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.ReplaceRowService.ts" />
+    <TypeScriptCompile Remove="Imports\ServerTypings\_Ext.TimeUoM.ts" />
+    <TypeScriptCompile Remove="Imports\_references.ts" />
+    <TypeScriptCompile Remove="Modules\Administration\UserFormAuthorizationsDetails\UserFormAuthorizationsDetailsEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Default\BPAddresses\BPAddressesEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Default\BusinessPartner\SelectCodeNameValueEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Default\BusinessPartner\SeriesValuesEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Default\SapDatabases\DBDriverEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Default\SapDatabases\dbTypeEditor - Copy.ts" />
+    <TypeScriptCompile Remove="Modules\Default\SapDatabases\dbTypeEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Membership\Account\CompanyDatabaseValuesEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Orders\AddressExtension\AddressExtensionEditor.ts" />
+    <TypeScriptCompile Remove="Modules\Orders\Document\SelectCodeNameValueEditor.ts" />
+    <Content Include="App_Data\CrystalReportHelper\CrystalDecisions.CrystalReports.Engine.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\CrystalDecisions.ReportSource.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\CrystalDecisions.Shared.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\CrystalReportsHelper.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\CrystalReportsHelper.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\Newtonsoft.Json.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\SAPBusinessObjects.WPF.Viewer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\SAPBusinessObjects.WPF.ViewerShared.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\CrystalReportHelper\stdole.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Modules\Default\ShopifySettingsDetail\ShopifySettingsDetailIndex.cshtml" />
+    <None Include="Modules\Default\ShopifySettings\ShopifySettingsIndex.cshtml" />
+    <None Include="Modules\Default\ShopifySubSettings\ShopifySubSettingsIndex.cshtml" />
+    <None Include="Modules\InventoryTransferRequest\StockTransferLine\StockTransferLineIndex.cshtml" />
+    <None Include="Modules\InventoryTransferRequest\StockTransfer\StockTransferIndex.cshtml" />
+    <None Include="Modules\_Ext\AuditLog\AuditLogIndex.cshtml" />
+    <None Include="Modules\_Ext\DevTools\CodeSnippets\CodeSnippetsIndex.cshtml" />
+    <None Include="Modules\_Ext\DevTools\CompareEntityToDB\CompareEntityToDBIndex.cshtml" />
+    <None Include="Modules\_Ext\DevTools\GenerateMigrationFromEntity\GenerateMigrationFromEntityIndex.cshtml" />
+    <None Include="Modules\_Ext\DevTools\GenerateMigrationFromEntity\GenerateMigrationFromEntityMigrationViewer.cshtml" />
+    <None Include="Modules\_Ext\DevTools\GenerateMigrationFromEntity\GenerateMigrationFromEntitySuccessMsg.cshtml" />
+    <None Include="Modules\_Ext\DevTools\Sergen\SergenError.cshtml" />
+    <None Include="Modules\_Ext\DevTools\Sergen\SergenIndex.cshtml" />
+    <None Include="wwwroot\Modules\_Ext\CustomSlickGridPlugin\slick.autocolumnsize.js" />
+    <None Include="wwwroot\Modules\_Ext\CustomSlickGridPlugin\slick.headerfilters.js" />
+    <None Include="wwwroot\Modules\_Ext\Editors\SerenityInlineEditors.js" />
+    <None Include="wwwroot\Modules\_Ext\Editors\slick.editors.js" />
+    <None Update="wwwroot\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="Modules\**\*.Template.html;Modules\**\*.ts.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
+    <PackageReference Include="B1SLayer" Version="1.2.0" />
+    <PackageReference Include="EPPlus" Version="4.5.3.2" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.0" />
+    <PackageReference Include="Microsoft.OData.Client" Version="7.10.0" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.10.0" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.10.0" />
+    <PackageReference Include="Microsoft.Spatial" Version="7.10.0" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="NToastNotify" Version="7.0.0" />
+    <PackageReference Include="sentry" Version="3.22.0" />
+    <PackageReference Include="Sentry.AspNetCore" Version="3.22.0" />
+    <PackageReference Include="Serenity.Extensions" Version="5.2.2" />
+    <PackageReference Include="Serenity.Scripts" Version="5.2.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serenity.Scripts" Version="5.2.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serenity.Extensions" Version="5.2.2" />
+    <PackageReference Include="ShopifySharp" Version="6.2.0" />
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HelperWebSL\HelperWebSL.csproj" />
+    <ProjectReference Include="..\..\Serenity\src\Serenity.Assets\Serenity.Assets.csproj" />
+    <ProjectReference Include="..\..\Serenity\src\Serenity.Net.Web\Serenity.Net.Web.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App_Data\Queries\Queries.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sap.Data.Hana.Core.v2.1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\Queries\" />
+    <Folder Include="App_Data\schema\" />
+    <Folder Include="App_Data\upload\Files\Uploads\00000\" />
+    <Folder Include="App_Data\upload\history\20220815\" />
+    <Folder Include="App_Data\upload\temporary\" />
+    <Folder Include="Models\ShopifyModels\" />
+    <Folder Include="Modules\Common\PermissionKeys\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Sap.Data.Hana.Core.v2.1">
+      <HintPath>..\..\..\MAIN-YR-Electronics\SAPWebPortal\SAPWebPortal.Web\Sap.Data.Hana.Core.v2.1.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK">
+      <HintPath>SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceLayerHelper">
+      <HintPath>ServiceLayerHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Migrations\DefaultDB\DefaultDBScript_SqlServer_Report_Users.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Migrations\DefaultDB\DefaultDBScript_SqlServer_Report_UserDetails.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Migrations\DefaultDB\DefaultDBScript_SqlServer_Reports.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(SolutionDir)Serenity\build\submodule.targets" Condition="Exists('$(SolutionDir)Serenity\build\submodule.targets')" />
+  <Target Name="CreateInputsOutputs" BeforeTargets="BeforeBuild">
+    <CreateItem Include="Modules\**\*.ts;Imports\**\*.ts;tsconfig.json">
+      <Output TaskParameter="Include" ItemName="CompileTSCInputs" />
+    </CreateItem>
+  </Target>
+  <Target Name="NpmInstall" BeforeTargets="BeforeBuild" Condition="!Exists('node_modules\@types\jquery\index.d.ts')">
+    <Message Text="Installing NPM packages..." Importance="high"></Message>
+    <Exec Command="npm install" />
+  </Target>
+  <Target Name="TransformMvcClientTypes" BeforeTargets="BeforeBuild">
+    <Exec Command="dotnet tool restore" ContinueOnError="true" />
+    <Exec Command="$(DotNetSergen) restore" ContinueOnError="true" />
+    <Exec Command="$(DotNetSergen) mvct" ContinueOnError="true" />
+  </Target>
+  <Target Name="TransformServerTypings" AfterTargets="AfterBuild">
+    <Exec Command="$(DotNetSergen) servertypings" ContinueOnError="true" />
+  </Target>
+  <Target Name="CompileTSC" AfterTargets="AfterBuild" Inputs="@(CompileTSCInputs)" Outputs="wwwroot\Scripts\site\SAPWebPortal.Web.js">
+    <Message Text="Executing TypeScript compiler..." Importance="high"></Message>
+    <Exec Command="node &quot;$(TSJavaScriptFile.Replace('build\\..\tools\', 'tools\'))&quot; -p ./tsconfig.json" ContinueOnError="true" />
+  </Target>
+</Project>

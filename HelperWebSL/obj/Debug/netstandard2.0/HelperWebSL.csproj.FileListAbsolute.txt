@@ -1,0 +1,110 @@
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\ABiT_SAP_WebPortal\MAIN-PPGC\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\mi\abit\sbodesk_web\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\code\mi\abit\sbodesk_web\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\mi\abit\sbodesk_web\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\mi\abit\sbodesk_web\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\code\abit\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Code\jk\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Code\jk\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\jk\SBODESK_WEB\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\jk\SBODESK_WEB\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Code\Mehboob\SBO_QME_Main\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_QME\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_KALE\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\code\SBODESK_Shopify_Integration\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.deps.json
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\bin\Debug\netstandard2.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\Sentry.Attributes.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfoInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.AssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelperWebSL\obj\Debug\netstandard2.0\HelperWebSL.pdb

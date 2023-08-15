@@ -1,0 +1,1 @@
+copy "C:\Program Files (x86)\SAP\hdbclient\dotnetcore\v2.1\Sap.Data.Hana.Core.v2.1.dll" .

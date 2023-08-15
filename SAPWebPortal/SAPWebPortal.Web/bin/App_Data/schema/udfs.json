@@ -1,0 +1,410 @@
+{
+  "UserTables": [
+    {
+      "TableName": "OIPBATCH",
+      "TableDescription": "Incoming Paymnet Batch",
+      "TableType": "bott_Document",
+      "Archivable": "tNO",
+      "ArchiveDateField": null
+    },
+    { 
+      "TableName": "IPBATCH1",
+      "TableDescription": "Incoming Payment Batch Rows",
+      "TableType": "bott_DocumentLines",
+      "Archivable": "tNO",
+      "ArchiveDateField": null
+    }
+
+  ],
+  "UserFields": [
+
+
+    {
+      "Name": "UserCode",
+      "Type": "db_Alpha",
+      "Size": 20,
+      "Description": "UserCode",
+      "SubType": "st_None",
+      "TableName": "ORCT",
+      "FieldID": 5,
+      "EditSize": 20,
+      "Mandatory": "tNO"
+    },
+    //create field ACCTCODE in ousr
+    {
+      "Name": "ACCTCODE",
+      "Type": "db_Alpha",
+      "Size": 20,
+      "Description": "ACCTCODE",
+      "SubType": "st_None",
+      "TableName": "OUSR",
+      "FieldID": 5,
+      "EditSize": 20,
+      "Mandatory": "tNO"
+    },
+    //create field UserSign as int in ORCT
+    {
+      "Name": "UserSign",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "UserSign",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "ORCT",
+      "FieldID": 0,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    //Create BatchNumber  as int in ORCT
+    {
+      "Name": "BatchNumber",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "BatchNumber",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "ORCT",
+      "FieldID": 0,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Description": "Approval GUID",
+      "Name": "ApprovalGUID",
+      "SubType": "st_Address",
+      "TableName": "ODRF",
+      "Type": "db_Alpha"
+    },
+    {
+      "Name": "Userid",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "Userid",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 0,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "User_Code",
+      "Type": "db_Alpha",
+      "Size": 30,
+      "Description": "User_Code",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 1,
+      "EditSize": 30,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "BatchType",
+      "Type": "db_Alpha",
+      "Size": 1,
+      "Description": "Batch Type",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 2,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": [
+        {
+          "Value": "C",
+          "Description": "Cash"
+        },
+        {
+          "Value": "B",
+          "Description": "Bank"
+        },
+        {
+          "Value": "Q",
+          "Description": "Check"
+        }
+      ]
+    },
+    {
+      "Name": "DocDate",
+      "Type": "db_Date",
+      "Size": 8,
+      "Description": "DocDate",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 3,
+      "EditSize": 8,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "CashAcct",
+      "Type": "db_Alpha",
+      "Size": 15,
+      "Description": "CashAcct",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 4,
+      "EditSize": 15,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "TrsfrAcct",
+      "Type": "db_Alpha",
+      "Size": 15,
+      "Description": "TrsfrAcct",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 5,
+      "EditSize": 15,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "TDocNum",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "TDocNum",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 6,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "CashierId",
+      "Type": "db_Alpha",
+      "Size": 30,
+      "Description": "CashierId",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 7,
+      "EditSize": 30,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "Status",
+      "Type": "db_Alpha",
+      "Size": 10,
+      "Description": "Status",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 8,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": [
+        {
+          "Value": "Open",
+          "Description": "Open"
+        },
+        {
+          "Value": "Close",
+          "Description": "Close"
+        }
+      ]
+    },
+    {
+      "Name": "DocTotal",
+      "Type": "db_Float",
+      "Size": 16,
+      "Description": "DocTotal",
+      "SubType": "st_Sum",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@OIPBATCH",
+      "FieldID": 9,
+      "EditSize": 16,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    }, //detail
+    {
+      "Name": "CardCode",
+      "Type": "db_Alpha",
+      "Size": 50,
+      "Description": "CardCode",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@IPBATCH1",
+      "FieldID": 0,
+      "EditSize": 50,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "DocSum",
+      "Type": "db_Float",
+      "Size": 16,
+      "Description": "DocSum",
+      "SubType": "st_Sum",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@IPBATCH1",
+      "FieldID": 1,
+      "EditSize": 16,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "BDocNum",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "BDocNum",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@IPBATCH1",
+      "FieldID": 2,
+      "EditSize": 11,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "BDocEntry",
+      "Type": "db_Numeric",
+      "Size": 11,
+      "Description": "BDocEntry",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@IPBATCH1",
+      "FieldID": 3,
+      "EditSize": 10,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "CardName",
+      "Type": "db_Alpha",
+      "Size": 200,
+      "Description": "CardName",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "@IPBATCH1",
+      "FieldID": 4,
+      "EditSize": 200,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    },
+    {
+      "Name": "UserCode",
+      "Type": "db_Alpha",
+      "Size": 50,
+      "Description": "UserCode",
+      "SubType": "st_None",
+      "LinkedTable": null,
+      "DefaultValue": null,
+      "TableName": "RCT1",
+      "FieldID": 0,
+      "EditSize": 50,
+      "Mandatory": "tNO",
+      "LinkedUDO": null,
+      "LinkedSystemObject": null,
+      "ValidValuesMD": []
+    }
+
+
+  ],
+  "UserObjects": [
+    //make a udo with name INCOPB having tables OIPBATCH, IPBATCH1
+    {
+      "TableName": "OIPBATCH",
+      "Code": "INCOPB",
+      "LogTableName": null,
+      "CanCreateDefaultForm": "tNO",
+      "ObjectType": "boud_Document",
+      "ExtensionName": null,
+      "CanCancel": "tNO",
+      "CanDelete": "tNO",
+      "CanLog": "tNO",
+      "ManageSeries": "tNO",
+      "CanFind": "tNO",
+      "CanYearTransfer": "tNO",
+      "Name": "INCOPB",
+      "CanClose": "tNO",
+      "OverwriteDllfile": "tYES",
+      "UseUniqueFormType": "tYES",
+      "CanArchive": "tNO",
+      "MenuItem": "tNO",
+      "MenuCaption": "",
+      "FatherMenuID": null,
+      "Position": null,
+      "MenuUID": null,
+      "EnableEnhancedForm": "tYES",
+      "RebuildEnhancedForm": "tYES",
+      "FormSRF": null,
+      "UserObjectMD_ChildTables": [
+        {
+          "SonNumber": 1,
+          "TableName": "IPBATCH1",
+          "LogTableName": null,
+          "Code": "INCOPB",
+          "ObjectName": "IPBATCH1"
+        }
+      ],
+      "UserObjectMD_FindColumns": [],
+      "UserObjectMD_FormColumns": [],
+      "UserObjectMD_EnhancedFormColumns": []
+    }
+
+  ]
+}

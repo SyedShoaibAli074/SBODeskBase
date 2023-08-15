@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Serenity.Net.Web</AssemblyName>
+    <TargetFramework>net5.0</TargetFramework>
+    <Title>Serenity Platform - Asp.Net Core Web Library</Title>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Serenity.Net.Services\Serenity.Net.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUglify" Version="1.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="$(FrameworkPackageVersion)" />
+  </ItemGroup>
+</Project>

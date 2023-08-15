@@ -1,0 +1,18 @@
+{
+  "Entity": {
+    "CompanyDb": "3",
+    "CompanyName": "CT_BAIT_ALKANDORA",
+    "DocNum": "",
+    "DocEntry": "",
+    "ExpenseType": "Petty Cash Process",
+    "ExpenseSubType": "Air Passage",
+    "Date": "2021-09-27",
+    "PaymentSource": "Cash Collection",
+    "Ref": "12",
+    "Amount": 1000,
+    "Currency": "AED",
+    "Attachment": "",
+    "CreateBy": "admin",
+    "Remarks": ""
+  }
+}

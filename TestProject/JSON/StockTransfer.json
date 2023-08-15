@@ -1,0 +1,19 @@
+{
+  "Entity": { 
+    "DBName": "SBODemoAU",
+    "StockTransferLines": [
+      {
+        "LineNum": 0,
+        "DocEntry": 1, 
+        "U_RecQty": 1
+      },
+      {
+        "LineNum": 1,
+        "DocEntry": 1, 
+        "U_RecQty": null
+      }
+    ],
+    "DocEntry": 1
+  },
+  "EntityId": 1
+}

@@ -1,0 +1,86 @@
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe.config
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.pdb
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportSource.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.Shared.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\Newtonsoft.Json.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.Viewer.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\bin\Release\Newtonsoft.Json.xml
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.SuggestedBindingRedirects.cache
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CopyComplete
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.exe
+C:\code\abit\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.pdb
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe.config
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalReportsHelper.pdb
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\CrystalDecisions.Shared.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\Newtonsoft.Json.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.Viewer.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\stdole.dll
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\bin\Release\Newtonsoft.Json.xml
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.AssemblyReference.cache
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.SuggestedBindingRedirects.cache
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CoreCompileInputs.cache
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CopyComplete
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.exe
+C:\Code\jk\SBODESK_WEB\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe.config
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\Newtonsoft.Json.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\Newtonsoft.Json.xml
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.AssemblyReference.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.SuggestedBindingRedirects.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CopyComplete
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.exe
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.pdb
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe.config
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalReportsHelper.pdb
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportSource.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\CrystalDecisions.Shared.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\Newtonsoft.Json.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.Viewer.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\bin\Release\Newtonsoft.Json.xml
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.SuggestedBindingRedirects.cache
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CopyComplete
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.exe
+C:\code\abit\SBODESK_WEB_QME\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe.config
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalReportsHelper.exe
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalReportsHelper.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\Newtonsoft.Json.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\bin\Release\Newtonsoft.Json.xml
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.SuggestedBindingRedirects.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.csproj.CopyComplete
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.exe
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\CrystalReportsHelper\obj\Debug\CrystalReportsHelper.pdb

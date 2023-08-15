@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@50 Namespace=SAPWebPortal.Default.Endpoints.Tests Type=BusinessPartnerControllerTests Member=ListTest)" Category="CodeSchema_Method" Bounds="1903.85166666667,57.6475,74.27,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ListTest" Icon="CodeSchema_Method" Label="ListTest" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/Default/BusinessPartner/BusinessPartnerControllerTests.cs StartLineNumber=65 StartCharacterOffset=0 EndLineNumber=65 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @55 @56 Member=(@51 OverloadingParameters=[(@65 Namespace=Serenity.Services Type=IRequestContext),@52]))" Category="CodeSchema_Method" Bounds="1711.12833333333,518.27,149.716666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UserDetail1Controller" Icon="CodeSchema_Method" Label="UserDetail1Controller" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Endpoint.cs StartLineNumber=32 StartCharacterOffset=0 EndLineNumber=32 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @55 @56 Member=(Name=GetSlpCodefromUsername @53))" Category="CodeSchema_Method" Bounds="1883.33333333333,633.565000000001,177.306666666667,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="GetSlpCodefromUsername" Icon="CodeSchema_Method" Label="GetSlpCodefromUsername" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Endpoint.cs StartLineNumber=119 StartCharacterOffset=0 EndLineNumber=119 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @55 Type=BusinessPartnerController Member=(@68 OverloadingParameters=[@72,@69,(@8 Namespace=SAPWebPortal.Default Type=IBusinessPartnerListHandler)]))" Category="CodeSchema_Method" Bounds="658.128333333333,57.6475000000003,53.7166666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="List" Icon="CodeSchema_Method" Label="List" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BusinessPartner/BusinessPartnerEndpoint.cs StartLineNumber=109 StartCharacterOffset=0 EndLineNumber=109 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @55 Type=SapDatabasesController Member=(Name=isHana @53))" Category="CodeSchema_Method" Bounds="1609.225,518.270000000001,71.5233333333333,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="isHana" Icon="CodeSchema_Method" Label="isHana" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/SapDatabases/SapDatabasesEndpoint.cs StartLineNumber=172 StartCharacterOffset=0 EndLineNumber=172 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @55 Type=UsersController Member=(Name=getCompanyName @53))" Category="CodeSchema_Method" Bounds="2178.15666666667,575.9175,135.66,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="getCompanyName" Icon="CodeSchema_Method" Label="getCompanyName" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Users/UsersEndpoint.cs StartLineNumber=68 StartCharacterOffset=0 EndLineNumber=68 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @62 @63 Member=(@51 OverloadingParameters=[(@64 Namespace=Serenity.Abstractions Type=ITwoLevelCache),(@64 Namespace=Serenity Type=ITextLocalizer)]))" Category="CodeSchema_Method" Bounds="1057.84333333333,201.4875,132.286666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AccountController" Icon="CodeSchema_Method" Label="AccountController" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=32 StartCharacterOffset=0 EndLineNumber=32 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @62 @63 Member=AnonymousMethod__1)" Category="CodeSchema_Method" Bounds="1264.065,57.6475,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__1" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=213 StartCharacterOffset=0 EndLineNumber=213 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @62 @63 Member=AnonymousMethod__12_4)" Category="CodeSchema_Method" Bounds="2047.105,201.4875,175.763333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__12_4" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=291 StartCharacterOffset=0 EndLineNumber=291 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @66 @67 Member=AnonymousMethod__3)" Category="CodeSchema_Method" Bounds="768.065,345.327500000001,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__3" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=238 StartCharacterOffset=0 EndLineNumber=238 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @9 Type=AES Member=(Name=DecryptString @53))" Category="CodeSchema_Method" Bounds="1812.825,273.4075,108.323333333333,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="DecryptString" Icon="CodeSchema_Method" Label="DecryptString" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/AES.cs StartLineNumber=41 StartCharacterOffset=0 EndLineNumber=41 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @9 Type=Program Member=(Name=Main OverloadingParameters=[(@10 Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))]))" Category="CodeSchema_Method" Bounds="921.696666666666,57.6475000000003,62.58,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" Icon="CodeSchema_Method" Label="Main" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Initialization/Program.cs StartLineNumber=44 StartCharacterOffset=0 EndLineNumber=44 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 @9 Type=Program Member=PAIteration)" Category="CodeSchema_Method" Bounds="785.861666666666,129.5675,94.25,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="PAIteration" Icon="CodeSchema_Method" Label="PAIteration" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Initialization/Program.cs StartLineNumber=82 StartCharacterOffset=0 EndLineNumber=82 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@8 Namespace=SAPWebPortal.Drafts.Endpoints Type=DataDictionaryViewController Member=GetSessions)" Category="CodeSchema_Method" Bounds="256.37,129.5675,99.2333333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetSessions" Icon="CodeSchema_Method" Label="GetSessions" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/DataDictionaryViews/DataDictionaryViewEndpoint.cs StartLineNumber=32 StartCharacterOffset=0 EndLineNumber=32 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=&quot;[Exception] Serenity.Services.JsonRequestAttribute.OnActionExecuting&quot; @1 OverloadingParameters=[(Type=Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext Name=filterContext)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="4.52166666666653,201.4875,136.93,25.96" Label="OnActionExecuting" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Web/Mvc/JsonRequestAttribute.cs StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.BusinessPartnerRow&gt; @98 @99 @109 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="391.828333333333,273.4075,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=677 StartCharacterOffset=0 EndLineNumber=677 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.ItemRow&gt; @98 @99 @109 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2088.82833333333,460.6225,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=675 StartCharacterOffset=0 EndLineNumber=675 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.IncomingPayment.PaymentRow&gt; @98 @99 @109 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1858.82833333333,460.6225,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=677 StartCharacterOffset=0 EndLineNumber=677 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Quotations.DocumentRow&gt; @98 @99 @109 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="506.828333333333,273.4075,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=805 StartCharacterOffset=0 EndLineNumber=805 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@102" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="590.46,345.327500000001,147.053333333333,25.96" Label="CallHTTPCLIENT_SQL" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=896 StartCharacterOffset=0 EndLineNumber=896 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@104" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1743.82833333333,460.6225,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=714 StartCharacterOffset=0 EndLineNumber=714 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@105" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1602.82833333333,460.622500000001,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=790 StartCharacterOffset=0 EndLineNumber=790 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@106" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1973.82833333333,460.6225,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=714 StartCharacterOffset=0 EndLineNumber=714 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@107" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="621.828333333333,273.407500000001,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=840 StartCharacterOffset=0 EndLineNumber=840 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@108" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2203.82833333333,460.6225,84.3166666666666,25.96" Label="GetSLList" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/ServiceLayerRestHandler.cs StartLineNumber=675 StartCharacterOffset=0 EndLineNumber=675 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="4.52166666666653,129.5675,136.93,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="OnActionExecuting" Icon="CodeSchema_Method" IsOverloaded="True" Label="OnActionExecuting" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Web/Mvc/JsonRequestAttribute.cs StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="269.486666666666,57.6475000000003,71,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Invoke" Icon="CodeSchema_Method" Label="Invoke" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Web/DynamicScript/DynamicScript/DynamicScriptMiddleware.cs StartLineNumber=25 StartCharacterOffset=0 EndLineNumber=25 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="1083.53166666667,129.5675,80.9100000000001,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="TestBase" Icon="CodeSchema_Method" Label="TestBase" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/TestBase/TestBase.cs StartLineNumber=38 StartCharacterOffset=0 EndLineNumber=38 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@57" Category="CodeSchema_Method" Bounds="1922.82333333333,518.27,186.326666666666,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="GetCustomersRelatedToUser" Icon="CodeSchema_Method" Label="GetCustomersRelatedToUser" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Endpoint.cs StartLineNumber=99 StartCharacterOffset=0 EndLineNumber=99 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@58" Category="CodeSchema_Method" Bounds="1447.725,518.270000000001,130.523333333333,25.96" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="GetDBConnection" Icon="CodeSchema_Method" Label="GetDBConnection" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/DBHelper.cs StartLineNumber=105 StartCharacterOffset=0 EndLineNumber=105 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@59" Category="CodeSchema_Method" Bounds="1796.09166666667,575.9175,351.79,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ListOfCustomersattachedToTheSalesPersonsAssignedToUser" Icon="CodeSchema_Method" Label="ListOfCustomersattachedToTheSalesPersonsAssignedToUser" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Endpoint.cs StartLineNumber=157 StartCharacterOffset=0 EndLineNumber=157 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@61" Category="CodeSchema_Method" Bounds="774.428333333333,57.6475000000003,117.116666666667,25.96" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsStatic="True" CommonLabel="PATimerWorker" Icon="CodeSchema_Method" Label="PATimerWorker" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Initialization/Program.cs StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@70" Category="CodeSchema_Method" Bounds="522.128333333333,201.4875,53.7166666666667,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="List" Icon="CodeSchema_Method" Label="List" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=250 StartCharacterOffset=0 EndLineNumber=250 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@73" Category="CodeSchema_Method" Bounds="386.128333333333,129.5675,53.7166666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="List" Icon="CodeSchema_Method" Label="List" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Orders/Document/DocumentEndpoint.cs StartLineNumber=139 StartCharacterOffset=0 EndLineNumber=139 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@74" Category="CodeSchema_Method" Bounds="658.128333333333,129.5675,53.7166666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="List" Icon="CodeSchema_Method" Label="List" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Quotations/Document/DocumentEndpoint.cs StartLineNumber=127 StartCharacterOffset=0 EndLineNumber=127 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@75" Category="CodeSchema_Method" Bounds="172.128333333333,129.5675,53.7166666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="List" Icon="CodeSchema_Method" Label="List" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/Payment/PaymentEndpoint.cs StartLineNumber=176 StartCharacterOffset=0 EndLineNumber=176 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@76" Category="CodeSchema_Method" Bounds="2171.12833333333,518.27,149.716666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UserDetail1Controller" Icon="CodeSchema_Method" Label="UserDetail1Controller" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Endpoint.cs StartLineNumber=35 StartCharacterOffset=0 EndLineNumber=35 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@78" Category="CodeSchema_Method" Bounds="1951.47833333333,345.3275,129.016666666666,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="FillDataDictionary" Icon="CodeSchema_Method" Label="FillDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=625 StartCharacterOffset=0 EndLineNumber=625 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@79" Category="CodeSchema_Method" Bounds="1951.47833333333,273.4075,129.016666666666,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="FillDataDictionary" Icon="CodeSchema_Method" Label="FillDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BusinessPartner/BusinessPartnerEndpoint.cs StartLineNumber=175 StartCharacterOffset=0 EndLineNumber=175 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@80" Category="CodeSchema_Method" Bounds="2111.47833333333,273.4075,129.016666666666,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="FillDataDictionary" Icon="CodeSchema_Method" Label="FillDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Item/ItemEndpoint.cs StartLineNumber=80 StartCharacterOffset=0 EndLineNumber=80 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@81" Category="CodeSchema_Method" Bounds="1653.47833333333,273.4075,129.016666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="FillDataDictionary" Icon="CodeSchema_Method" Label="FillDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/Payment/PaymentEndpoint.cs StartLineNumber=259 StartCharacterOffset=0 EndLineNumber=259 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@82" Category="CodeSchema_Method" Bounds="1952.235,402.975,127.503333333334,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetDataFromSAP" Icon="CodeSchema_Method" Label="GetDataFromSAP" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=664 StartCharacterOffset=0 EndLineNumber=664 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@83" Category="CodeSchema_Method" Bounds="1452.36166666667,57.6475,197.25,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="BusinessPartnerControllerTests" Icon="CodeSchema_Method" Label="BusinessPartnerControllerTests" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/Default/BusinessPartner/BusinessPartnerControllerTests.cs StartLineNumber=7 StartCharacterOffset=0 EndLineNumber=7 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@84" Category="CodeSchema_Method" Bounds="1014.89833333333,57.6475000000003,218.176666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DataDictionaryViewControllerTests" Icon="CodeSchema_Method" Label="DataDictionaryViewControllerTests" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/_Ext/DevTools/DataDictionaryViews/DataDictionaryViewControllerTests.cs StartLineNumber=5 StartCharacterOffset=0 EndLineNumber=5 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@85" Category="CodeSchema_Method" Bounds="768.065,273.4075,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__0" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=238 StartCharacterOffset=0 EndLineNumber=238 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@86" Category="CodeSchema_Method" Bounds="470.065,129.5675,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__0" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BusinessPartner/BusinessPartnerEndpoint.cs StartLineNumber=121 StartCharacterOffset=0 EndLineNumber=121 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@87" Category="CodeSchema_Method" Bounds="2040.105,57.6475,175.763333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__12_0" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=304 StartCharacterOffset=0 EndLineNumber=304 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="Category1" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@88" Category="CodeSchema_Method" Bounds="1937.065,129.5675,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__3" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=285 StartCharacterOffset=0 EndLineNumber=285 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@89" Category="CodeSchema_Method" Bounds="1827.065,201.4875,157.843333333333,25.96" CodeSchemaProperty_IsAnonymous="True" Label="AnonymousMethod__4" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=295 StartCharacterOffset=0 EndLineNumber=295 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@90" Category="CodeSchema_Method" Bounds="1476.70333333333,273.4075,146.566666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetAllDataDictionary" Icon="CodeSchema_Method" Label="GetAllDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Helpers/SAPHelper.cs StartLineNumber=206 StartCharacterOffset=0 EndLineNumber=206 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@91" Category="CodeSchema_Method" Bounds="1618.70333333333,201.4875,146.566666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetAllDataDictionary" Icon="CodeSchema_Method" Label="GetAllDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Quotations/Document/DocumentEndpoint.cs StartLineNumber=46 StartCharacterOffset=0 EndLineNumber=46 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@92" Category="CodeSchema_Method" Bounds="1441.70333333333,201.4875,146.566666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetAllDataDictionary" Icon="CodeSchema_Method" Label="GetAllDataDictionary" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Item/ItemEndpoint.cs StartLineNumber=93 StartCharacterOffset=0 EndLineNumber=93 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@93" Category="CodeSchema_Method" Bounds="1621.245,129.5675,141.483333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetDataDictionaries" Icon="CodeSchema_Method" Label="GetDataDictionaries" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/DataDictionaryViews/DataDictionaryViewEndpoint.cs StartLineNumber=67 StartCharacterOffset=0 EndLineNumber=67 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@94" Category="CodeSchema_Method" Bounds="1679.96833333333,57.6475,162.036666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetDataDictionariesTest" Icon="CodeSchema_Method" Label="GetDataDictionariesTest" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/_Ext/DevTools/DataDictionaryViews/DataDictionaryViewControllerTests.cs StartLineNumber=24 StartCharacterOffset=0 EndLineNumber=24 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@95" Category="CodeSchema_Method" Bounds="417.851666666666,57.6475000000003,74.27,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ListTest" Icon="CodeSchema_Method" Label="ListTest" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/Orders/Document/DocumentControllerTests.cs StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@96" Category="CodeSchema_Method" Bounds="553.851666666666,57.6475000000003,74.27,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ListTest" Icon="CodeSchema_Method" Label="ListTest" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/Modules/Quotations/Document/DocumentControllerTests.cs StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@97" Category="CodeSchema_Method" Bounds="880.908333333333,201.4875,146.156666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SessionManagement" Icon="CodeSchema_Method" Label="SessionManagement" SourceLocation="(Assembly=file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountPage.cs StartLineNumber=307 StartCharacterOffset=0 EndLineNumber=307 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="938.493333333333,2.27373675443232E-13,92.9866666666667,25.96" Label="External Code">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="SessionManagement" Category="Comment" Bounds="2061.485,0,133.003333333334,25.96" Label="Session management" />
+  </Nodes>
+  <Links>
+    <Link Source="@102" Target="@58" Category="CallStackDirectCall" Bounds="718.929748535156,371.287506103516,721.632873535156,145.538299560547" />
+    <Link Source="@104" Target="(@8 @55 @56 Member=(@51 OverloadingParameters=[(@65 Namespace=Serenity.Services Type=IRequestContext),@52]))" Category="CallStackDirectCall" Bounds="1785.98669433594,486.582489013672,0,22.6875" />
+    <Link Source="@105" Target="(@8 @55 Type=SapDatabasesController Member=(Name=isHana @53))" Category="CallStackDirectCall" Bounds="1644.98669433594,486.582489013672,0,22.6875" />
+    <Link Source="@105" Target="@58" Category="CallStackDirectCall" Bounds="1550.95581054688,486.582489013672,64.3095703125,28.0855407714844" />
+    <Link Source="@106" Target="@57" Category="CallStackDirectCall" Bounds="2015.98669433594,486.582489013672,0,22.6875" />
+    <Link Source="@106" Target="@76" Category="CallStackDirectCall" Bounds="2058.08984375,484.1552734375,127.379638671875,31.9266357421875" />
+    <Link Source="@107" Target="@102" Category="CallStackDirectCall" Bounds="663.986694335938,299.367492675781,0,36.9600219726563" />
+    <Link Source="@108" Target="@76" Category="CallStackDirectCall" Bounds="2245.98657226563,486.582489013672,0,22.6875" />
+    <Link Source="@13" Target="(Name=&quot;[Exception] Serenity.Services.JsonRequestAttribute.OnActionExecuting&quot; @1 OverloadingParameters=[(Type=Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext Name=filterContext)] @2)" Category="CallStackIndirectCall" Bounds="72.9866638183594,155.527496337891,0,36.9600067138672" Label="External Code" LabelBounds="0,170.5275,72.9866666666667,15.96" />
+    <Link Source="@15" Target="(@8 Namespace=SAPWebPortal.Drafts.Endpoints Type=DataDictionaryViewController Member=GetSessions)" Category="CallStackIndirectCall" Bounds="304.986663818359,83.6074981689453,0.395050048828125,36.9633102416992" Label="External Code" LabelBounds="232,98.6075000000001,72.9866666666667,15.96" />
+    <Link Source="@15" Target="@13" Category="CallStackIndirectCall" Bounds="79.8669586181641,76.3778610229492,189.619705200195,44.8049850463867" Label="External Code" LabelBounds="11.3952760832103,100.707379848605,72.9866666666667,15.96" />
+    <Link Source="@15" Target="@73" Category="CallStackIndirectCall" Bounds="321.595489501953,83.6074981689453,61.2318115234375,41.4438095092773" Label="External Code" LabelBounds="351,98.6075000000001,72.9866666666667,15.96" />
+    <Link Source="@15" Target="@75" Category="CallStackIndirectCall" Bounds="196.644622802734,82.0146713256836,73.1925354003906,38.5688781738281" Label="External Code" LabelBounds="124.665973666809,100.638686283962,72.9866666666667,15.96" />
+    <Link Source="@54" Target="(@8 @62 @63 Member=(@51 OverloadingParameters=[(@64 Namespace=Serenity.Abstractions Type=ITwoLevelCache),(@64 Namespace=Serenity Type=ITextLocalizer)]))" Category="CallStackDirectCall" Bounds="1123.98669433594,155.527496337891,0,36.9600067138672" />
+    <Link Source="@54" Target="@97" Category="CallStackDirectCall" Bounds="992.956726074219,155.527496337891,100.348571777344,42.453369140625" />
+    <Link Source="@57" Target="@59" Category="CallStackDirectCall" Bounds="1987.35424804688,544.22998046875,18.725341796875,24.5333251953125" />
+    <Link Source="@59" Target="(@8 @55 @56 Member=(Name=GetSlpCodefromUsername @53))" Category="CallStackDirectCall" Bounds="1971.98669433594,601.877502441406,0,22.6875" />
+    <Link Source="@61" Target="(@8 @9 Type=Program Member=PAIteration)" Category="CallStackDirectCall" Bounds="832.986694335938,83.6074981689453,0,36.9599990844727" />
+    <Link Source="@70" Target="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.BusinessPartnerRow&gt; @98 @99 @109 @2)" Category="CallStackDirectCall" Bounds="462.372314453125,227.447494506836,65.859375,41.1878814697266" />
+    <Link Source="@70" Target="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Quotations.DocumentRow&gt; @98 @99 @109 @2)" Category="CallStackDirectCall" Bounds="548.986694335938,227.447494506836,0,36.9600067138672" />
+    <Link Source="@70" Target="@107" Category="CallStackDirectCall" Bounds="565.414978027344,227.447494506836,65.4969482421875,41.8235015869141" />
+    <Link Source="@70" Target="@85" Category="CallStackIndirectCall" Bounds="575.844970703125,220.949554443359,208.6103515625,50.3464965820313" Label="External Code" LabelBounds="625,242.4475,72.9866666666667,15.96" />
+    <Link Source="@73" Target="@70" Category="CallStackDirectCall" Bounds="437.424774169922,155.470947265625,79.1677551269531,41.8657684326172" />
+    <Link Source="@74" Target="@70" Category="CallStackDirectCall" Bounds="581.380798339844,155.470947265625,79.1677856445313,41.8657684326172" />
+    <Link Source="@75" Target="@70" Category="CallStackDirectCall" Bounds="225.845001220703,150.227355957031,287.441497802734,57.4574279785156" />
+    <Link Source="@76" Target="(@8 @55 Type=UsersController Member=(Name=getCompanyName @53))" Category="CallStackDirectCall" Bounds="2245.98657226563,544.22998046875,0,22.6875" />
+    <Link Source="@78" Target="@82" Category="CallStackDirectCall" Bounds="2015.98669433594,371.287506103516,0,22.6875" />
+    <Link Source="@79" Target="@78" Category="CallStackDirectCall" Bounds="2015.98669433594,299.367492675781,0,36.9600219726563" />
+    <Link Source="@80" Target="@78" Category="CallStackDirectCall" Bounds="2053.07202148438,299.367492675781,94.0380859375,42.2701416015625" />
+    <Link Source="@81" Target="@78" Category="CallStackDirectCall" Bounds="1771.76916503906,299.367492675781,181.686157226563,43.8485412597656" />
+    <Link Source="@82" Target="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.ItemRow&gt; @98 @99 @109 @2)" Category="CallStackDirectCall" Bounds="2041.88024902344,428.934997558594,55.1671142578125,27.6543273925781" />
+    <Link Source="@82" Target="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.IncomingPayment.PaymentRow&gt; @98 @99 @109 @2)" Category="CallStackDirectCall" Bounds="1934.92590332031,428.934997558594,55.167236328125,27.6543273925781" />
+    <Link Source="@82" Target="@104" Category="CallStackDirectCall" Bounds="1836.81982421875,428.934997558594,127.379638671875,31.9266357421875" />
+    <Link Source="@82" Target="@105" Category="CallStackDirectCall" Bounds="1696.03833007813,425.860992431641,256.196655273438,39.8088989257813" />
+    <Link Source="@82" Target="@106" Category="CallStackDirectCall" Bounds="2015.98669433594,428.934997558594,0,22.6875" />
+    <Link Source="@82" Target="@108" Category="CallStackDirectCall" Bounds="2067.77392578125,428.934997558594,127.379638671875,31.9266357421875" />
+    <Link Source="@83" Target="@54" Category="CallStackDirectCall" Bounds="1173.31665039063,83.6074981689453,300.605834960938,50.6313018798828" />
+    <Link Source="@84" Target="@54" Category="CallStackDirectCall" Bounds="1123.98669433594,83.6074981689453,0,36.9599990844727" />
+    <Link Source="@85" Target="(@8 @66 @67 Member=AnonymousMethod__3)" Category="CallStackIndirectCall" Bounds="846.986694335938,299.367492675781,0,36.9600219726563" Label="External Code" LabelBounds="774,314.367500000001,72.9866666666667,15.96" />
+    <Link Source="@86" Target="@70" Category="CallStackDirectCall" Bounds="548.986694335938,155.527496337891,0,36.9600067138672" />
+    <Link Source="@87" Target="@88" Category="CallStackIndirectCall" Bounds="2043.77331542969,83.6074981689453,63.9998779296875,41.0970153808594" Label="External Code" LabelBounds="2071.98666666667,98.6075000000001,72.9866666666667,15.96" />
+    <Link Source="@88" Target="(@8 @62 @63 Member=AnonymousMethod__12_4)" Category="CallStackIndirectCall" Bounds="2037.46362304688,155.527496337891,68.343505859375,41.3048095703125" Label="External Code" LabelBounds="2075.48666666667,170.5275,72.9866666666667,15.96" />
+    <Link Source="@88" Target="@79" Category="CallStackDirectCall" Bounds="2015.98669433594,155.527496337891,0,108.880004882813" />
+    <Link Source="@88" Target="@80" Category="CallStackDirectCall" Bounds="2094.271484375,154.375732421875,159.715087890625,115.263702392578" />
+    <Link Source="@88" Target="@81" Category="CallStackDirectCall" Bounds="1754.314453125,155.184829711914,184.358154296875,114.454605102539" />
+    <Link Source="@88" Target="@89" Category="CallStackIndirectCall" Bounds="1939.6435546875,155.527496337891,62.2657470703125,41.8935241699219" Label="External Code" LabelBounds="1904,170.5275,72.9866666666665,15.96" />
+    <Link Source="@89" Target="(@8 @9 Type=AES Member=(Name=DecryptString @53))" Category="CallStackDirectCall" Bounds="1878.31555175781,227.447494506836,20.6324462890625,38.0483856201172" />
+    <Link Source="@89" Target="@79" Category="CallStackDirectCall" Bounds="1922.59069824219,227.447494506836,62.448486328125,41.5513763427734" />
+    <Link Source="@89" Target="@80" Category="CallStackDirectCall" Bounds="1934.14123535156,227.447494506836,169.223754882813,45.3385467529297" />
+    <Link Source="@89" Target="@81" Category="CallStackDirectCall" Bounds="1765.87780761719,227.447494506836,111.59326171875,43.1403045654297" />
+    <Link Source="@91" Target="@90" Category="CallStackDirectCall" Bounds="1583.6435546875,227.447494506836,82.7152099609375,41.8935089111328" />
+    <Link Source="@92" Target="@90" Category="CallStackDirectCall" Bounds="1521.30346679688,227.447494506836,18.42822265625,37.8674163818359" />
+    <Link Source="@93" Target="@91" Category="CallStackDirectCall" Bounds="1691.98669433594,155.527496337891,0,36.9600067138672" />
+    <Link Source="@93" Target="@92" Category="CallStackDirectCall" Bounds="1555.26928710938,155.527496337891,104.772705078125,42.5720520019531" />
+    <Link Source="@94" Target="@93" Category="CallStackDirectCall" Bounds="1710.67041015625,83.6074981689453,37.86328125,39.4655685424805" />
+    <Link Source="@95" Target="@73" Category="CallStackDirectCall" Bounds="434.978302001953,83.6074981689453,20.0083618164063,40.100715637207" />
+    <Link Source="@96" Target="@74" Category="CallStackDirectCall" Bounds="607.951599121094,83.6074981689453,52.9222412109375,40.4911422729492" />
+    <Link Source="ExternalCodeRootNode" Target="(@50 Namespace=SAPWebPortal.Default.Endpoints.Tests Type=BusinessPartnerControllerTests Member=ListTest)" Category="CallStackIndirectCall" Bounds="1031.47998046875,14.4382286071777,884.719482421875,39.338737487793" />
+    <Link Source="ExternalCodeRootNode" Target="(@8 @55 Type=BusinessPartnerController Member=(@68 OverloadingParameters=[@72,@69,(@8 Namespace=SAPWebPortal.Default Type=IBusinessPartnerListHandler)]))" Category="CallStackIndirectCall" Bounds="703.900634765625,17.8709201812744,234.592712402344,34.3840274810791" />
+    <Link Source="ExternalCodeRootNode" Target="(@8 @62 @63 Member=AnonymousMethod__1)" Category="CallStackIndirectCall" Bounds="1031.47998046875,20.4666595458984,225.056274414063,36.2400398254395" />
+    <Link Source="ExternalCodeRootNode" Target="(@8 @9 Type=Program Member=(Name=Main OverloadingParameters=[(@10 Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))]))" Category="CallStackIndirectCall" Bounds="964.559875488281,25.9599990844727,13.2216186523438,23.8185577392578" />
+    <Link Source="ExternalCodeRootNode" Target="@15" Category="CallStackIndirectCall" Bounds="349.333038330078,15.5277414321899,589.160308837891,46.7995710372925" />
+    <Link Source="ExternalCodeRootNode" Target="@61" Category="CallStackIndirectCall" Bounds="875.626342773438,25.9599990844727,75.1357421875,28.4959831237793" />
+    <Link Source="ExternalCodeRootNode" Target="@83" Category="CallStackIndirectCall" Bounds="1031.47998046875,17.5292739868164,412.185668945313,40.958553314209" />
+    <Link Source="ExternalCodeRootNode" Target="@84" Category="CallStackIndirectCall" Bounds="1016.28411865234,25.9599990844727,68.0917358398438,28.2396850585938" />
+    <Link Source="ExternalCodeRootNode" Target="@86" Category="CallStackIndirectCall" Bounds="522.986694335938,15.8806762695313,415.506652832031,106.349060058594" />
+    <Link Source="ExternalCodeRootNode" Target="@87" Category="CallStackIndirectCall" Bounds="1031.47998046875,14.2492990493774,1048.322265625,40.6063947677612" />
+    <Link Source="ExternalCodeRootNode" Target="@88" Category="CallStackIndirectCall" Bounds="1031.47998046875,14.2887029647827,982.98095703125,106.300446510315" />
+    <Link Source="ExternalCodeRootNode" Target="@89" Category="CallStackIndirectCall" Bounds="1031.47998046875,14.4891357421875,870.33642578125,178.15837097168" />
+    <Link Source="ExternalCodeRootNode" Target="@94" Category="CallStackIndirectCall" Bounds="1031.47998046875,15.6322612762451,642.652465820313,41.0216846466064" />
+    <Link Source="ExternalCodeRootNode" Target="@95" Category="CallStackIndirectCall" Bounds="479.061218261719,15.692777633667,459.43212890625,37.5758495330811" />
+    <Link Source="ExternalCodeRootNode" Target="@96" Category="CallStackIndirectCall" Bounds="635.957336425781,17.3594512939453,302.536010742188,38.5424652099609" />
+    <Link Source="ExternalCodeRootNode" Target="@97" Category="CallStackIndirectCall" Bounds="742.986694335938,18.5176544189453,195.506652832031,182.164901733398" />
+    <Link Source="SessionManagement" Target="@87" Bounds="2127.98657226563,25.9599990844727,0,22.6875" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="Category1" Label="Category 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAnonymous" Label="Is Anonymous" Description="Flag indicating if this delegate, type, or method is anonymous" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Array Rank" ValueType="System.String" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="IsUnresolved" Label="Is Unresolved" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=Serenity.Net.Web.dll" />
+    <Alias n="2" Id="IsUnresolved=True" />
+    <Alias n="8" Uri="Assembly=$(b93b9e76-6740-4e42-9d89-b028ec96c695.OutputPathUri)" />
+    <Alias n="9" Id="Namespace=SAPWebPortal" />
+    <Alias n="10" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.9/ref/net6.0/System.Runtime.dll" />
+    <Alias n="11" Uri="Assembly=$(14b8e3e1-8bb8-4248-8efd-0a2de8f9a9db.OutputPathUri)" />
+    <Alias n="12" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.AspNetCore.App.Ref/5.0.0/ref/net5.0/Microsoft.AspNetCore.Mvc.Abstractions.dll" />
+    <Alias n="13" Id="(@11 Namespace=Serenity.Services Type=JsonRequestAttribute Member=(Name=OnActionExecuting OverloadingParameters=[(@12 Namespace=Microsoft.AspNetCore.Mvc.Filters Type=ActionExecutingContext)]))" />
+    <Alias n="14" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.AspNetCore.App.Ref/5.0.0/ref/net5.0/Microsoft.AspNetCore.Http.Abstractions.dll" />
+    <Alias n="15" Id="(@11 Namespace=Serenity.Web.Middleware Type=DynamicScriptMiddleware Member=(Name=Invoke OverloadingParameters=[(@14 Namespace=Microsoft.AspNetCore.Http Type=HttpContext)]))" />
+    <Alias n="50" Uri="Assembly=$(ac05c2c7-f940-46b9-891f-5bdc98eb70e1.OutputPathUri)" />
+    <Alias n="51" Id="Name=.ctor" />
+    <Alias n="52" Id="(@10 Namespace=System Type=String)" />
+    <Alias n="53" Id="OverloadingParameters=[@52]" />
+    <Alias n="54" Id="(@50 Namespace=TestProject.TestBase Type=(Name=TestBase GenericParameterCount=2) Member=(@51 @53))" />
+    <Alias n="55" Id="Namespace=SAPWebPortal.Default.Endpoints" />
+    <Alias n="56" Id="Type=UserDetail1Controller" />
+    <Alias n="57" Id="(@8 @55 @56 Member=(Name=GetCustomersRelatedToUser @53))" />
+    <Alias n="58" Id="(@8 Namespace=SAPWebPortal.Web.Modules.Common.Helpers Type=DBHelper Member=(Name=GetDBConnection @53))" />
+    <Alias n="59" Id="(@8 @55 @56 Member=(Name=ListOfCustomersattachedToTheSalesPersonsAssignedToUser @53))" />
+    <Alias n="60" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.9/ref/net6.0/System.ComponentModel.TypeConverter.dll" />
+    <Alias n="61" Id="(@8 @9 Type=Program Member=(Name=PATimerWorker OverloadingParameters=[(@10 Namespace=System Type=Object),(@60 Namespace=System.Timers Type=ElapsedEventArgs)]))" />
+    <Alias n="62" Id="Namespace=SAPWebPortal.Membership.Pages" />
+    <Alias n="63" Id="Type=AccountController" />
+    <Alias n="64" Uri="Assembly=$(8f9eba6f-f066-47c1-9694-8bb8373be9fb.OutputPathUri)" />
+    <Alias n="65" Uri="Assembly=$(800ef094-9ab9-4a0f-8eab-a02867fbd8d0.OutputPathUri)" />
+    <Alias n="66" Id="Namespace=SAPWebPortal.Web.Helpers" />
+    <Alias n="67" Id="Type=(Name=SAPHelper GenericParameterCount=1)" />
+    <Alias n="68" Id="Name=List" />
+    <Alias n="69" Id="(@65 Namespace=Serenity.Services Type=ListRequest)" />
+    <Alias n="70" Id="(@8 @66 @67 Member=(@68 OverloadingParameters=[@69,@52]))" />
+    <Alias n="71" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.9/ref/net6.0/System.Data.Common.dll" />
+    <Alias n="72" Id="(@71 Namespace=System.Data Type=IDbConnection)" />
+    <Alias n="73" Id="(@8 Namespace=SAPWebPortal.Orders.Endpoints Type=DocumentController Member=(@68 OverloadingParameters=[@72,@69,(@8 Namespace=SAPWebPortal.Orders Type=IDocumentListHandler)]))" />
+    <Alias n="74" Id="(@8 Namespace=SAPWebPortal.Quotations.Endpoints Type=DocumentController Member=(@68 OverloadingParameters=[@72,@69,(@8 Namespace=SAPWebPortal.Quotations Type=IDocumentListHandler)]))" />
+    <Alias n="75" Id="(@8 Namespace=SAPWebPortal.IncomingPayment.Endpoints Type=PaymentController Member=(@68 OverloadingParameters=[@72,@69,(@8 Namespace=SAPWebPortal.IncomingPayment Type=IPaymentListHandler)]))" />
+    <Alias n="76" Id="(@8 @55 @56 Member=(@51 OverloadingParameters=[(@65 Namespace=Serenity.Services Type=IRequestContext),@52,@52]))" />
+    <Alias n="77" Id="Member=(Name=FillDataDictionary OverloadingParameters=[@52,@52,@52])" />
+    <Alias n="78" Id="(@8 @66 @67 @77)" />
+    <Alias n="79" Id="(@8 @55 Type=BusinessPartnerController @77)" />
+    <Alias n="80" Id="(@8 @55 Type=ItemController @77)" />
+    <Alias n="81" Id="(@8 Namespace=SAPWebPortal.IncomingPayment.Endpoints Type=PaymentController @77)" />
+    <Alias n="82" Id="(@8 @66 @67 Member=(Name=GetDataFromSAP OverloadingParameters=[@52,@52,@52]))" />
+    <Alias n="83" Id="(@50 Namespace=SAPWebPortal.Default.Endpoints.Tests Type=BusinessPartnerControllerTests Member=.ctor)" />
+    <Alias n="84" Id="(@50 Namespace=SAPWebPortal.Drafts.Endpoints.Tests Type=DataDictionaryViewControllerTests Member=.ctor)" />
+    <Alias n="85" Id="(@8 @66 @67 Member=AnonymousMethod__0)" />
+    <Alias n="86" Id="(@8 @55 Type=BusinessPartnerController Member=AnonymousMethod__0)" />
+    <Alias n="87" Id="(@8 @62 @63 Member=AnonymousMethod__12_0)" />
+    <Alias n="88" Id="(@8 @62 @63 Member=AnonymousMethod__3)" />
+    <Alias n="89" Id="(@8 @62 @63 Member=AnonymousMethod__4)" />
+    <Alias n="90" Id="(@8 @66 @67 Member=GetAllDataDictionary)" />
+    <Alias n="91" Id="(@8 Namespace=SAPWebPortal.Quotations.Endpoints Type=DocumentController Member=GetAllDataDictionary)" />
+    <Alias n="92" Id="(@8 @55 Type=ItemController Member=GetAllDataDictionary)" />
+    <Alias n="93" Id="(@8 Namespace=SAPWebPortal.Drafts.Endpoints Type=DataDictionaryViewController Member=GetDataDictionaries)" />
+    <Alias n="94" Id="(@50 Namespace=SAPWebPortal.Drafts.Endpoints.Tests Type=DataDictionaryViewControllerTests Member=GetDataDictionariesTest)" />
+    <Alias n="95" Id="(@50 Namespace=SAPWebPortal.Orders.Endpoints.Tests Type=DocumentControllerTests Member=ListTest)" />
+    <Alias n="96" Id="(@50 Namespace=SAPWebPortal.Quotations.Endpoints.Tests Type=DocumentControllerTests Member=ListTest)" />
+    <Alias n="97" Id="(@8 @62 @63 Member=SessionManagement)" />
+    <Alias n="98" Uri="Assembly=SAPWebPortal.Web.dll" />
+    <Alias n="99" Id="Type=bool" />
+    <Alias n="100" Id="Type=string" />
+    <Alias n="101" Id="(@100 Name=moduleName)" />
+    <Alias n="102" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.CallHTTPCLIENT_SQL&lt;SAPWebPortal.Orders.DocumentRow&gt; @98 @99 OverloadingParameters=[@101,(@100 Name=criteria),(Type=int Name=take),(Type=int Name=Skip),(@100 Name=resp1)] @2)" />
+    <Alias n="103" Id="OverloadingParameters=[@101,(Type=Serenity.Services.ListRequest Name=request),(@100 Name=resp),(Type=long Name=TotalCount),(Type=System.Collections.Generic.HashSet&lt;string&gt; Name=selected),(@100 Name=containstext),(Type=System.Collections.Generic.List&lt;string&gt; Name=QuicksearchFeildsName),(@100 Name=criteriastring)]" />
+    <Alias n="104" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.BusinessPartnerRow&gt; @98 @99 @103 @2)" />
+    <Alias n="105" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.ItemRow&gt; @98 @99 @103 @2)" />
+    <Alias n="106" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.IncomingPayment.PaymentRow&gt; @98 @99 @103 @2)" />
+    <Alias n="107" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Orders.DocumentRow&gt; @98 @99 @103 @2)" />
+    <Alias n="108" Id="(Name=SAPWebPortal.Web.Modules.Common.Helpers.ServiceLayerRestHandler.GetSLList&lt;SAPWebPortal.Default.BusinessPartnerRow&gt; @98 @99 OverloadingParameters=[@101,(Type=Serenity.Services.ListRequest Name=request),(@100 Name=resp),(Type=long Name=TotalCount),(Type=System.Collections.Generic.HashSet&lt;string&gt; Name=selected),(@100 Name=containstext),(Type=System.Collections.Generic.List&lt;string&gt; Name=QuicksearchFeildsName),(@100 Name=criteriastring),(@100 Name=CompanyDB)] @2)" />
+    <Alias n="109" Id="OverloadingParameters=[@101,(Type=Serenity.Services.ListRequest Name=request),(@100 Name=resp),(Type=long Name=TotalCount),(Type=System.Collections.Generic.HashSet&lt;string&gt; Name=selected),(@100 Name=containstext),(Type=System.Collections.Generic.List&lt;string&gt; Name=QuicksearchFeildsName),(@100 Name=criteriastring),(@100 Name=CompanyDB),(@100 Name=UserName)]" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (no source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FF717171" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Test Project" ValueLabel="Test Project">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web Project" ValueLabel="Web Project">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows Store Project" ValueLabel="Windows Store Project">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Phone Project" ValueLabel="Phone Project">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Portable Library" ValueLabel="Portable Library">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF Project" ValueLabel="WPF Project">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX Project" ValueLabel="VSIX Project">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Modeling Project" ValueLabel="Modeling Project">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="Has category">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Function Pointer" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Write" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Return" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses Attribute" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Solution Folder" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Project Reference" ValueLabel="Project Reference">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="External Reference" ValueLabel="External Reference">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="14b8e3e1-8bb8-4248-8efd-0a2de8f9a9db.OutputPathUri" Value="file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Web/bin/Debug/net5.0/Serenity.Net.Web.dll" />
+    <Path Id="800ef094-9ab9-4a0f-8eab-a02867fbd8d0.OutputPathUri" Value="file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Services/bin/Debug/netstandard2.1/Serenity.Net.Services.dll" />
+    <Path Id="8f9eba6f-f066-47c1-9694-8bb8373be9fb.OutputPathUri" Value="file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/Serenity/src/Serenity.Net.Core/bin/Debug/netstandard2.1/Serenity.Net.Core.dll" />
+    <Path Id="ac05c2c7-f940-46b9-891f-5bdc98eb70e1.OutputPathUri" Value="file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/TestProject/bin/Debug/net6.0/TestProject.dll" />
+    <Path Id="b93b9e76-6740-4e42-9d89-b028ec96c695.OutputPathUri" Value="file:///C:/ABiT/ABiT_SAP_WebPortal/MAIN-PPGC/SAPWebPortal/SAPWebPortal.Web/bin/Debug/net6.0/SAPWebPortal.Web.dll" />
+    <Path Id="ProgramFilesUri" Value="file:///C:/Program Files" />
+  </Paths>
+</DirectedGraph>

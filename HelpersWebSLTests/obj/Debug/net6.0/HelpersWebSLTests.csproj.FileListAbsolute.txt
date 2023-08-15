@@ -1,0 +1,515 @@
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\testhost.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\testhost.exe
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.deps.json
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.runtimeconfig.json
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.pdb
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Sentry.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CopyComplete
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\refint\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.pdb
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.genruntimeconfig.cache
+C:\code\abit\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\ref\HelpersWebSLTests.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\testhost.exe
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\testhost.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.deps.json
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.runtimeconfig.json
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\Sentry.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.pdb
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.AssemblyReference.cache
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfoInputs.cache
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfo.cs
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CoreCompileInputs.cache
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CopyComplete
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\refint\HelpersWebSLTests.dll
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.genruntimeconfig.cache
+C:\Code\jk\SBODESK_WEB\HelpersWebSLTests\obj\Debug\net6.0\ref\HelpersWebSLTests.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\testhost.exe
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\testhost.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.deps.json
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.runtimeconfig.json
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Sentry.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.AssemblyReference.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfoInputs.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfo.cs
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CopyComplete
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\refint\HelpersWebSLTests.dll
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.genruntimeconfig.cache
+C:\Users\MuhammadImran\source\repos\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\ref\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\testhost.exe
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\testhost.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.deps.json
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.runtimeconfig.json
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.pdb
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\Sentry.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.pdb
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.AssemblyReference.cache
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfoInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfo.cs
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CoreCompileInputs.cache
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CopyComplete
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\refint\HelpersWebSLTests.dll
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.pdb
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.genruntimeconfig.cache
+C:\code\abit\SBODESK_WEB_QME\HelpersWebSLTests\obj\Debug\net6.0\ref\HelpersWebSLTests.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\testhost.exe
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\testhost.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.deps.json
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.runtimeconfig.json
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\Sentry.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\bin\Debug\net6.0\HelperWebSL.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfoInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.AssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.csproj.CopyComplete
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\refint\HelpersWebSLTests.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\HelpersWebSLTests.genruntimeconfig.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\HelpersWebSLTests\obj\Debug\net6.0\ref\HelpersWebSLTests.dll

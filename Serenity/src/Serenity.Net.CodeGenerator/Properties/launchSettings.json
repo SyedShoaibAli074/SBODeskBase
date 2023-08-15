@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Serenity.CodeGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "sbo",
+      "workingDirectory": "..\\..\\..\\SAPWebPortal\\SAPWebPortal.Web",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,393 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SAPWebPortal.Web
+build_property.RootNamespace = SAPWebPortal.Web
+build_property.ProjectDir = C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Exceptions/ExceptionsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxFeGNlcHRpb25zXEV4Y2VwdGlvbnNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Language/LanguageIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxMYW5ndWFnZVxMYW5ndWFnZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Log/LogIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxMb2dcTG9nSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Role/RoleIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxSb2xlXFJvbGVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Sessions/SessionsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxTZXNzaW9uc1xTZXNzaW9uc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Settings/SettingsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxTZXR0aW5nc1xTZXR0aW5nc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/Translation/TranslationIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxUcmFuc2xhdGlvblxUcmFuc2xhdGlvbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/UserFormAuthorizationsDetails/UserFormAuthorizationsDetailsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxVc2VyRm9ybUF1dGhvcml6YXRpb25zRGV0YWlsc1xVc2VyRm9ybUF1dGhvcml6YXRpb25zRGV0YWlsc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/UserFormAuthorizations/UserFormAuthorizationsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxVc2VyRm9ybUF1dGhvcml6YXRpb25zXFVzZXJGb3JtQXV0aG9yaXphdGlvbnNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Administration/User/UserIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pbmlzdHJhdGlvblxVc2VyXFVzZXJJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/ARInvoice/Document/DocumentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBUkludm9pY2VcRG9jdW1lbnRcRG9jdW1lbnRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Common/Dashboard/DashboardIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb21tb25cRGFzaGJvYXJkXERhc2hib2FyZEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/AdditionalExpense/AdditionalExpenseIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEFkZGl0aW9uYWxFeHBlbnNlXEFkZGl0aW9uYWxFeHBlbnNlSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ApprovalRequestDecision/ApprovalRequestDecisionIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEFwcHJvdmFsUmVxdWVzdERlY2lzaW9uXEFwcHJvdmFsUmVxdWVzdERlY2lzaW9uSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ApprovalRequestLine/ApprovalRequestLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEFwcHJvdmFsUmVxdWVzdExpbmVcQXBwcm92YWxSZXF1ZXN0TGluZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ApprovalRequest/ApprovalRequestIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEFwcHJvdmFsUmVxdWVzdFxBcHByb3ZhbFJlcXVlc3RJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BPAddresses/BPAddressesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEJQQWRkcmVzc2VzXEJQQWRkcmVzc2VzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BPPaymentMethods/BPPaymentMethodsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEJQUGF5bWVudE1ldGhvZHNcQlBQYXltZW50TWV0aG9kc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BusinessPartnerGroup/BusinessPartnerGroupIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEJ1c2luZXNzUGFydG5lckdyb3VwXEJ1c2luZXNzUGFydG5lckdyb3VwSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/BusinessPartner/BusinessPartnerIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEJ1c2luZXNzUGFydG5lclxCdXNpbmVzc1BhcnRuZXJJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ChartOfAccount/ChartOfAccountIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XENoYXJ0T2ZBY2NvdW50XENoYXJ0T2ZBY2NvdW50SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ContactEmployees/ContactEmployeesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XENvbnRhY3RFbXBsb3llZXNcQ29udGFjdEVtcGxveWVlc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/FileRouting/FileRoutingIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEZpbGVSb3V0aW5nXEZpbGVSb3V0aW5nSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Ipbatch1/Ipbatch1Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XElwYmF0Y2gxXElwYmF0Y2gxSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ItemWarehouseInfoCollection/ItemWarehouseInfoCollectionIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEl0ZW1XYXJlaG91c2VJbmZvQ29sbGVjdGlvblxJdGVtV2FyZWhvdXNlSW5mb0NvbGxlY3Rpb25JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Item/ItemIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XEl0ZW1cSXRlbUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Log/LogIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XExvZ1xMb2dJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Oipbatch/OipbatchIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XE9pcGJhdGNoXE9pcGJhdGNoSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/RecordCounts/RecordCountsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFJlY29yZENvdW50c1xSZWNvcmRDb3VudHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ReportPage/ReportPageIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFJlcG9ydFBhZ2VcUmVwb3J0UGFnZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Reports/ReportsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFJlcG9ydHNcUmVwb3J0c0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Report_Users/Report_UsersIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFJlcG9ydF9Vc2Vyc1xSZXBvcnRfVXNlcnNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/SapDatabases/SapDatabasesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNhcERhdGFiYXNlc1xTYXBEYXRhYmFzZXNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/SapToShopifySyncLog/SapToShopifySyncLogIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNhcFRvU2hvcGlmeVN5bmNMb2dcU2FwVG9TaG9waWZ5U3luY0xvZ0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ShopifyLocationDetail/ShopifyLocationDetailIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNob3BpZnlMb2NhdGlvbkRldGFpbFxTaG9waWZ5TG9jYXRpb25EZXRhaWxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ShopifySettingsDetail/ShopifySettingsDetailIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNob3BpZnlTZXR0aW5nc0RldGFpbFxTaG9waWZ5U2V0dGluZ3NEZXRhaWxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ShopifySettings/ShopifySettingsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNob3BpZnlTZXR0aW5nc1xTaG9waWZ5U2V0dGluZ3NJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ShopifySubSettings/ShopifySubSettingsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNob3BpZnlTdWJTZXR0aW5nc1xTaG9waWZ5U3ViU2V0dGluZ3NJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/ShopifyWebkookSettings/ShopifyWebkookSettingsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFNob3BpZnlXZWJrb29rU2V0dGluZ3NcU2hvcGlmeVdlYmtvb2tTZXR0aW5nc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail1/UserDetail1Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFVzZXJEZXRhaWwxXFVzZXJEZXRhaWwxSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UserDetail2/UserDetail2Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFVzZXJEZXRhaWwyXFVzZXJEZXRhaWwySW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/UsersDetails/UsersDetailsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFVzZXJzRGV0YWlsc1xVc2Vyc0RldGFpbHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Users/UsersIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFVzZXJzXFVzZXJzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Default/Warehouse/WarehouseIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWZhdWx0XFdhcmVob3VzZVxXYXJlaG91c2VJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/DeliveryLine/DocumentLine/DocumentLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWxpdmVyeUxpbmVcRG9jdW1lbnRMaW5lXERvY3VtZW50TGluZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Delivery/Document/DocumentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEZWxpdmVyeVxEb2N1bWVudFxEb2N1bWVudEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/DraftsExpense/DocumentAdditionalExpense/DocumentAdditionalExpenseIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEcmFmdHNFeHBlbnNlXERvY3VtZW50QWRkaXRpb25hbEV4cGVuc2VcRG9jdW1lbnRBZGRpdGlvbmFsRXhwZW5zZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/DraftsLine/DocumentLine/DocumentLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEcmFmdHNMaW5lXERvY3VtZW50TGluZVxEb2N1bWVudExpbmVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Drafts/Document/DocumentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xEcmFmdHNcRG9jdW1lbnRcRG9jdW1lbnRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/PaymentAccount/PaymentAccountIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbmNvbWluZ1BheW1lbnRcUGF5bWVudEFjY291bnRcUGF5bWVudEFjY291bnRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/PaymentCheck/PaymentCheckIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbmNvbWluZ1BheW1lbnRcUGF5bWVudENoZWNrXFBheW1lbnRDaGVja0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/PaymentCreditCard/PaymentCreditCardIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbmNvbWluZ1BheW1lbnRcUGF5bWVudENyZWRpdENhcmRcUGF5bWVudENyZWRpdENhcmRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/PaymentInvoice/PaymentInvoiceIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbmNvbWluZ1BheW1lbnRcUGF5bWVudEludm9pY2VcUGF5bWVudEludm9pY2VJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/IncomingPayment/Payment/PaymentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbmNvbWluZ1BheW1lbnRcUGF5bWVudFxQYXltZW50SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/InventoryCounting/InventoryCountingLine/InventoryCountingLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbnZlbnRvcnlDb3VudGluZ1xJbnZlbnRvcnlDb3VudGluZ0xpbmVcSW52ZW50b3J5Q291bnRpbmdMaW5lSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/InventoryCounting/InventoryCounting/InventoryCountingIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbnZlbnRvcnlDb3VudGluZ1xJbnZlbnRvcnlDb3VudGluZ1xJbnZlbnRvcnlDb3VudGluZ0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/InventoryTransferRequest/StockTransferLine/StockTransferLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbnZlbnRvcnlUcmFuc2ZlclJlcXVlc3RcU3RvY2tUcmFuc2ZlckxpbmVcU3RvY2tUcmFuc2ZlckxpbmVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/InventoryTransferRequest/StockTransfer/StockTransferIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xJbnZlbnRvcnlUcmFuc2ZlclJlcXVlc3RcU3RvY2tUcmFuc2ZlclxTdG9ja1RyYW5zZmVySW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/AccountLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcQWNjb3VudExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/ChangePassword/AccountChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcQ2hhbmdlUGFzc3dvcmRcQWNjb3VudENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/ForgotPassword/AccountForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcRm9yZ290UGFzc3dvcmRcQWNjb3VudEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/ResetPassword/AccountResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcUmVzZXRQYXNzd29yZFxBY2NvdW50UmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/ResetPassword/AccountResetPasswordEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcUmVzZXRQYXNzd29yZFxBY2NvdW50UmVzZXRQYXNzd29yZEVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/SignUp/AccountActivateEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcU2lnblVwXEFjY291bnRBY3RpdmF0ZUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/Account/SignUp/AccountSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXEFjY291bnRcU2lnblVwXEFjY291bnRTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Membership/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNZW1iZXJzaGlwXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/OrdersExpense/DocumentAdditionalExpense/DocumentAdditionalExpenseIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xPcmRlcnNFeHBlbnNlXERvY3VtZW50QWRkaXRpb25hbEV4cGVuc2VcRG9jdW1lbnRBZGRpdGlvbmFsRXhwZW5zZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/OrdersLine/DocumentLine/DocumentLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xPcmRlcnNMaW5lXERvY3VtZW50TGluZVxEb2N1bWVudExpbmVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Orders/AddressExtension/AddressExtensionIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xPcmRlcnNcQWRkcmVzc0V4dGVuc2lvblxBZGRyZXNzRXh0ZW5zaW9uSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Orders/Document/DocumentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xPcmRlcnNcRG9jdW1lbnRcRG9jdW1lbnRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/QuotationsExpense/DocumentAdditionalExpense/DocumentAdditionalExpenseIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xRdW90YXRpb25zRXhwZW5zZVxEb2N1bWVudEFkZGl0aW9uYWxFeHBlbnNlXERvY3VtZW50QWRkaXRpb25hbEV4cGVuc2VJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/QuotationsLine/DocumentLine/DocumentLineIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xRdW90YXRpb25zTGluZVxEb2N1bWVudExpbmVcRG9jdW1lbnRMaW5lSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/Quotations/Document/DocumentIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xRdW90YXRpb25zXERvY3VtZW50XERvY3VtZW50SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/VatGroups/VatGroup/VatGroupIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xWYXRHcm91cHNcVmF0R3JvdXBcVmF0R3JvdXBJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/AuditLog/AuditLogIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XEF1ZGl0TG9nXEF1ZGl0TG9nSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/CodeSnippets/CodeSnippetsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXENvZGVTbmlwcGV0c1xDb2RlU25pcHBldHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/CompareEntityToDB/CompareEntityToDBIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXENvbXBhcmVFbnRpdHlUb0RCXENvbXBhcmVFbnRpdHlUb0RCSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/DataDictionaryViews/DataDictionaryViewsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXERhdGFEaWN0aW9uYXJ5Vmlld3NcRGF0YURpY3Rpb25hcnlWaWV3c0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/GenerateMigrationFromEntity/GenerateMigrationFromEntityIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXEdlbmVyYXRlTWlncmF0aW9uRnJvbUVudGl0eVxHZW5lcmF0ZU1pZ3JhdGlvbkZyb21FbnRpdHlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/GenerateMigrationFromEntity/GenerateMigrationFromEntityMigrationViewer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXEdlbmVyYXRlTWlncmF0aW9uRnJvbUVudGl0eVxHZW5lcmF0ZU1pZ3JhdGlvbkZyb21FbnRpdHlNaWdyYXRpb25WaWV3ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/GenerateMigrationFromEntity/GenerateMigrationFromEntitySuccessMsg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXEdlbmVyYXRlTWlncmF0aW9uRnJvbUVudGl0eVxHZW5lcmF0ZU1pZ3JhdGlvbkZyb21FbnRpdHlTdWNjZXNzTXNnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/Sergen/SergenError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXFNlcmdlblxTZXJnZW5FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_Ext/DevTools/Sergen/SergenIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfRXh0XERldlRvb2xzXFNlcmdlblxTZXJnZW5JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Modules/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Errors/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Errors/ValidationError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXFZhbGlkYXRpb25FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Shared/_LayoutHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Shared/_LayoutNoNavigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROb05hdmlnYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shoaib/Desktop/PDFs & Docs/ENZA Home/Code/SAPWebPortal/SAPWebPortal.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,6 @@
+{
+  "Take": 20,
+  "Sort": [ "CardCode" ],
+  "IncludeColumns": [ "inline-actions", "RowNum", "CardCode", "CardName", "CardForeignName", "CardType" ],
+  "ContainsText": ""
+}
