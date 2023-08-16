@@ -4,6 +4,8 @@ using System.Linq;
 using Serenity.Data;
 using SAPWebPortal.Default;
 using System;
+using SAPWebPortal.Administration.Columns;
+using SAPWebPortal.Administration.Endpoints;
 
 namespace SAPWebPortal.Web.DependencyInjections
 {
@@ -74,7 +76,7 @@ namespace SAPWebPortal.Web.DependencyInjections
                     }
                     catch (Exception ex)
                     {
-
+                        ExceptionsController.Log(ex);
                        // throw;
                     }
 

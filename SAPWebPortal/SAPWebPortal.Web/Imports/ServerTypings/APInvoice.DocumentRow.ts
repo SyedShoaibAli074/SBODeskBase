@@ -4,6 +4,7 @@
         Series?: number;
         DocNum?: number;
         DocType?: string;
+        DocObjectCode?: string;
         DocDate?: string;
         DocDueDate?: string;
         CardCode?: string;
@@ -22,7 +23,9 @@
         Project?: string;
         PaymentGroupCode?: string;
         PayToCode?: string;
+        BPL_IDAssignedToInvoice?: string;
         TrackNo?: string;
+        U_ARInvoiceNo?: string;
         ShipToCode?: string;
         U_Cartons?: string;
         U_Total_Weight?: string;
@@ -49,6 +52,7 @@
             Series = "Series",
             DocNum = "DocNum",
             DocType = "DocType",
+            DocObjectCode = "DocObjectCode",
             DocDate = "DocDate",
             DocDueDate = "DocDueDate",
             CardCode = "CardCode",
@@ -67,7 +71,9 @@
             Project = "Project",
             PaymentGroupCode = "PaymentGroupCode",
             PayToCode = "PayToCode",
+            BPL_IDAssignedToInvoice = "BPL_IDAssignedToInvoice",
             TrackNo = "TrackNo",
+            U_ARInvoiceNo = "U_ARInvoiceNo",
             ShipToCode = "ShipToCode",
             U_Cartons = "U_Cartons",
             U_Total_Weight = "U_Total_Weight",

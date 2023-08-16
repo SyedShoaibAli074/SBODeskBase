@@ -13,11 +13,10 @@
         UoMCode?: string;
         LineTotal?: number;
         AccountCode?: string;
+        U_CustOrderNo?: string;
         AccountName?: string;
-        U_WRNT?: string;
         GrossTotal?: number;
         TaxTotal?: number;
-        U_STCK?: number;
         BaseType?: number;
         BaseEntry?: number;
         BaseLine?: number;
@@ -48,11 +47,10 @@
             UoMCode = "UoMCode",
             LineTotal = "LineTotal",
             AccountCode = "AccountCode",
+            U_CustOrderNo = "U_CustOrderNo",
             AccountName = "AccountName",
-            U_WRNT = "U_WRNT",
             GrossTotal = "GrossTotal",
             TaxTotal = "TaxTotal",
-            U_STCK = "U_STCK",
             BaseType = "BaseType",
             BaseEntry = "BaseEntry",
             BaseLine = "BaseLine",

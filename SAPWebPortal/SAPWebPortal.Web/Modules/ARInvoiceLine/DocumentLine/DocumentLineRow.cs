@@ -137,27 +137,7 @@ namespace SAPWebPortal.ARInvoiceLine
             get => fields.GrossTotal[this];
             set => fields.GrossTotal[this] = value;
         } 
-        [DisplayName("Warranty Item"), ReadOnly(true)]
-        [NotMapped]
-        public String U_WRNT
-        {
-            get => fields.U_WRNT[this];
-            set => fields.U_WRNT[this] = value;
-        }
-        [DisplayName("Colour")]
-        [NotMapped]
-        public String U_Remarks
-        {
-            get => fields.U_Remarks[this];
-            set => fields.U_Remarks[this] = value;
-        }
-        [DisplayName("In Stock (udf)"), ReadOnly(true)]
-        [NotMapped]
-        public decimal? U_STCK
-        {
-            get => fields.U_STCK[this];
-            set => fields.U_STCK[this] = value;
-        }
+        
         [DisplayName("Base Type"), SAPDBFieldName("BaseType")]
         [NotMapped]
         public Int32? BaseType
@@ -181,26 +161,40 @@ namespace SAPWebPortal.ARInvoiceLine
             get => fields.BaseLine[this];
             set => fields.BaseLine[this] = value;
         }
-        [DisplayName("Location"), SAPDBFieldName("OcrCode"), _Ext.GridItemPickerEditor(typeof(LocationsRow))]
+        [DisplayName("Location"), SAPDBFieldName("OcrCode")]
         [NotMapped]
         public System.String? CostingCode
         {
             get => fields.CostingCode[this];
             set => fields.CostingCode[this] = value;
         }
-        [DisplayName("Department"), SAPDBFieldName("OcrCode2"), _Ext.GridItemPickerEditor(typeof(DepartmentsRow))]
+        [DisplayName("Department"), SAPDBFieldName("OcrCode2")]
         [NotMapped]
         public System.String? CostingCode2
         {
             get => fields.CostingCode2[this];
             set => fields.CostingCode2[this] = value;
         }
-        [DisplayName("Project"), NotNull, SAPDBFieldName("Project"), _Ext.GridItemPickerEditor(typeof(ProjectsRow))]
+        [DisplayName("Project"), NotNull, SAPDBFieldName("Project")]
         [NotMapped]
         public String ProjectCode
         {
             get => fields.ProjectCode[this];
             set => fields.ProjectCode[this] = value;
+        }
+        [DisplayName("U_Payable"), SAPDBFieldName("U_Payable")]
+        [NotMapped]
+        public String U_Payable
+        {
+            get => fields.U_Payable[this];
+            set => fields.U_Payable[this] = value;
+        }
+        [DisplayName("U_CustOrderNo"), SAPDBFieldName("U_CustOrderNo")]
+        [NotMapped]
+        public String U_CustOrderNo
+        {
+            get => fields.U_CustOrderNo[this];
+            set => fields.U_CustOrderNo[this] = value;
         }
         //[DisplayName("Currency"), NotNull]
         //[NotMapped]
@@ -1924,11 +1918,10 @@ namespace SAPWebPortal.ARInvoiceLine
             public DecimalField LineTotal;
             public StringField AccountCode;
             public StringField AccountName;
-            public StringField U_WRNT;
             public DecimalField GrossTotal;
             public DecimalField TaxTotal;
-            public DecimalField U_STCK;
-            public StringField U_Remarks;
+            public StringField U_Payable;
+            public StringField U_CustOrderNo;
             //base type
             public Int32Field BaseType;
             public Int32Field BaseEntry;

@@ -176,56 +176,95 @@ CREATE column TABLE "@Expiry"("U_ExpDays" bigint NOT NULL)]]>
 	<Query name="Create.SP.GET_CHANGES">
 		<SQL>
 			<![CDATA[
-       IF EXISTS ( SELECT * FROM   sysobjects  WHERE  id = object_id(N'[dbo].[GET_CHANGES]') and OBJECTPROPERTY(id, N'IsProcedure') = 1 )
-      DROP PROCEDURE [dbo].[GET_CHANGES];
-  GO
- CREATE procedure [dbo].[GET_CHANGES]
-(
-@VersionNumber bigint,
-@ToVersionNumber bigint
+   IF EXISTS (
+    SELECT *
+    FROM sysobjects
+    WHERE id = OBJECT_ID(N'[dbo].[ARGET_CHANGES]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1
 )
-as 
+    DROP PROCEDURE [dbo].[ARGET_CHANGES];
+GO
 
-begin
-SELECT  a.[DocEntry]
-      ,a.[U_ObjType]
-      ,[U_Key]
-	  ,b.U_KeyName
-	  ,b.U_HTBL 
-      ,[U_DateTime]
-	  ,a.[U_TrType]
-  FROM [dbo].[@AB_CTRK] a
-  inner join [dbo]."@AB_TRKOBJ" b
-  on a.U_ObjType = b.U_ObjType 
-  where a.DocEntry  > @VersionNumber and a.DocEntry <= @ToVersionNumber
-  order by DocEntry
-  end
-  GO]]>
+CREATE PROCEDURE [dbo].[ARGET_CHANGES]
+(
+    @VersionNumber BIGINT,
+    @DBName NVARCHAR(250)
+)
+AS
+BEGIN
+    DECLARE @DynamicSQL NVARCHAR(MAX)
+
+    SET @DynamicSQL = '
+    SELECT
+        a.[DocEntry],
+        a.[U_ObjType],
+        [U_Key],
+        b.U_KeyName,
+        b.U_HTBL,
+        [U_DateTime],
+        a.[U_TrType]
+    FROM
+        [dbo].[@AB_CTRK] a
+    INNER JOIN
+        [dbo].[@AB_TRKOBJ] b ON a.U_ObjType = b.U_ObjType
+    LEFT OUTER JOIN
+        ' + QUOTENAME(@DBName) + '.[dbo].[SAPToShopifySyncLog] c ON a.DocEntry = c.DocEntry
+    WHERE
+        (c.SyncStatus = @SyncStatus OR c.SyncStatus IS NULL) AND a.DocEntry > @VersionNumber and a.U_ObjType=13
+    ORDER BY
+        DocEntry'
+
+    DECLARE @SyncStatus CHAR(1) = 'N'
+
+    EXEC sp_executesql @DynamicSQL, N'@VersionNumber BIGINT, @SyncStatus CHAR(1)', @VersionNumber,  @SyncStatus
+END
+GO]]>
 		</SQL>
 		<HANA>
 			<![CDATA[
-      CREATE procedure  GET_CHANGES
-(
-in VersionNumber bigint,
-in ToVersionNumber bigint
+      IF EXISTS (
+    SELECT *
+    FROM sysobjects
+    WHERE id = OBJECT_ID(N'[dbo].[ARGET_CHANGES]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1
 )
-LANGUAGE SQLSCRIPT
-as 
+    DROP PROCEDURE [dbo].[ARGET_CHANGES];
+GO
 
-begin
-SELECT  a."DocEntry"
-      ,a."U_ObjType"
-      ,"U_Key"
-	  ,b."U_KeyName"
-	  ,b."U_HTBL" 
-      ,"U_DateTime"
-	  ,a."U_TrType"
-  FROM "{0}"."@AB_CTRK" a
-  inner join "{0}"."@AB_TRKOBJ" b
-  on a."U_ObjType" = b."U_ObjType" 
-  where a."DocEntry"  > :VersionNumber and a."DocEntry" <= :ToVersionNumber
-  order by "DocEntry";
-  end]]>
+CREATE PROCEDURE [dbo].[ARGET_CHANGES]
+(
+    @VersionNumber BIGINT,
+    @ToVersionNumber BIGINT,
+    @DBName NVARCHAR(250)
+)
+AS
+BEGIN
+    DECLARE @DynamicSQL NVARCHAR(MAX)
+
+    SET @DynamicSQL = '
+    SELECT
+        a.[DocEntry],
+        a.[U_ObjType],
+        [U_Key],
+        b.U_KeyName,
+        b.U_HTBL,
+        [U_DateTime],
+        a.[U_TrType]
+    FROM
+        [dbo].[@AB_CTRK] a
+    INNER JOIN
+        [dbo].[@AB_TRKOBJ] b ON a.U_ObjType = b.U_ObjType
+    LEFT OUTER JOIN
+        ' + QUOTENAME(@DBName) + '.[dbo].[SAPToShopifySyncLog] c ON a.DocEntry = c.DocEntry
+    WHERE
+        (c.SyncStatus = @SyncStatus OR c.SyncStatus IS NULL) AND a.DocEntry > @VersionNumber and a.DocEntry <= @ToVersionNumber and a.U_ObjType=13
+    ORDER BY
+        DocEntry'
+
+    DECLARE @SyncStatus CHAR(1) = 'N'
+
+    EXEC sp_executesql @DynamicSQL, N'@VersionNumber BIGINT, @ToVersionNumber BIGINT, @SyncStatus CHAR(1)', @VersionNumber, @ToVersionNumber, @SyncStatus
+END
+GO
+]]>
 		</HANA>
 	</Query>
 	<Query name="Create.SP.GET_CHANGES_OINM">
@@ -1562,46 +1601,95 @@ If not exists (select name from sysobjects where name = '@AB_TRKOBJ')
 	<Query name="Query_66_CreateProcedure_GET_CHANGES">
 		<SQL>
 			<![CDATA[
-			
-IF EXISTS ( SELECT * FROM   sysobjects  WHERE  id = object_id(N'[dbo].[GET_CHANGES]') and OBJECTPROPERTY(id, N'IsProcedure') = 1 )
-      DROP PROCEDURE [dbo].[GET_CHANGES];
-  GO
- CREATE procedure [dbo].[GET_CHANGES]
-(
-@VersionNumber bigint,
-@U_ObjType nvarchar(50)
+   IF EXISTS (
+    SELECT *
+    FROM sysobjects
+    WHERE id = OBJECT_ID(N'[dbo].[ARGET_CHANGES]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1
 )
-as 
+    DROP PROCEDURE [dbo].[ARGET_CHANGES];
+GO
 
-begin
-SELECT  a.[DocEntry]
-      ,a.[U_ObjType]
-      ,[U_Key]
-	  ,b.U_KeyName
-	  ,b.U_HTBL 
-      ,[U_DateTime]
-	  ,a.[U_TrType]
-  FROM [dbo].[@AB_CTRK] a
-  inner join [dbo].[@AB_TRKOBJ] b
-  on a.U_ObjType = b.U_ObjType 
-  where a.DocEntry  > @VersionNumber AND a.[U_ObjType]=@U_ObjType
-  order by DocEntry
-  end
- 
-  
-  ]]>
+CREATE PROCEDURE [dbo].[ARGET_CHANGES]
+(
+    @VersionNumber BIGINT,
+    @DBName NVARCHAR(250)
+)
+AS
+BEGIN
+    DECLARE @DynamicSQL NVARCHAR(MAX)
 
+    SET @DynamicSQL = '
+    SELECT
+        a.[DocEntry],
+        a.[U_ObjType],
+        [U_Key],
+        b.U_KeyName,
+        b.U_HTBL,
+        [U_DateTime],
+        a.[U_TrType]
+    FROM
+        [dbo].[@AB_CTRK] a
+    INNER JOIN
+        [dbo].[@AB_TRKOBJ] b ON a.U_ObjType = b.U_ObjType
+    LEFT OUTER JOIN
+        ' + QUOTENAME(@DBName) + '.[dbo].[SAPToShopifySyncLog] c ON a.DocEntry = c.DocEntry
+    WHERE
+        (c.SyncStatus = @SyncStatus OR c.SyncStatus IS NULL) AND a.DocEntry > @VersionNumber and a.U_ObjType=13
+    ORDER BY
+        DocEntry'
+
+    DECLARE @SyncStatus CHAR(1) = 'N'
+
+    EXEC sp_executesql @DynamicSQL, N'@VersionNumber BIGINT, @SyncStatus CHAR(1)', @VersionNumber,  @SyncStatus
+END
+GO]]>
 		</SQL>
-
-
-
-
-
 		<HANA>
 			<![CDATA[
-			
-		
-			]]>
+      IF EXISTS (
+    SELECT *
+    FROM sysobjects
+    WHERE id = OBJECT_ID(N'[dbo].[ARGET_CHANGES]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1
+)
+    DROP PROCEDURE [dbo].[ARGET_CHANGES];
+GO
+
+CREATE PROCEDURE [dbo].[ARGET_CHANGES]
+(
+    @VersionNumber BIGINT,
+    @ToVersionNumber BIGINT,
+    @DBName NVARCHAR(250)
+)
+AS
+BEGIN
+    DECLARE @DynamicSQL NVARCHAR(MAX)
+
+    SET @DynamicSQL = '
+    SELECT
+        a.[DocEntry],
+        a.[U_ObjType],
+        [U_Key],
+        b.U_KeyName,
+        b.U_HTBL,
+        [U_DateTime],
+        a.[U_TrType]
+    FROM
+        [dbo].[@AB_CTRK] a
+    INNER JOIN
+        [dbo].[@AB_TRKOBJ] b ON a.U_ObjType = b.U_ObjType
+    LEFT OUTER JOIN
+        ' + QUOTENAME(@DBName) + '.[dbo].[SAPToShopifySyncLog] c ON a.DocEntry = c.DocEntry
+    WHERE
+        (c.SyncStatus = @SyncStatus OR c.SyncStatus IS NULL) AND a.DocEntry > @VersionNumber and a.DocEntry <= @ToVersionNumber and a.U_ObjType=13
+    ORDER BY
+        DocEntry'
+
+    DECLARE @SyncStatus CHAR(1) = 'N'
+
+    EXEC sp_executesql @DynamicSQL, N'@VersionNumber BIGINT, @ToVersionNumber BIGINT, @SyncStatus CHAR(1)', @VersionNumber, @ToVersionNumber, @SyncStatus
+END
+GO
+]]>
 		</HANA>
 	</Query>
 
@@ -1833,10 +1921,10 @@ INSERT INTO [dbo].[@AB_TRKOBJ]
            ,[U_HTBL]
            ,[U_Where])
      VALUES
-           ('4'
-           ,'ItemCode'
+           ('13'
+           ,'DocEntry'
            ,'Y'
-           ,'OITM'
+           ,'OINV'
            ,'')		
 			]]>
 

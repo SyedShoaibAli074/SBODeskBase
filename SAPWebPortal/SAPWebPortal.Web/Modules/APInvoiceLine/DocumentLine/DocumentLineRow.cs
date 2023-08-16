@@ -35,7 +35,13 @@ namespace SAPWebPortal.APInvoiceLine
             get => fields.LineNum[this];
             set => fields.LineNum[this] = value;
         }
-
+        [DisplayName("U_CustOrderNo"), SAPDBFieldName("U_CustOrderNo")]
+        [NotMapped]
+        public String U_CustOrderNo
+        {
+            get => fields.U_CustOrderNo[this];
+            set => fields.U_CustOrderNo[this] = value;
+        }
         [DisplayName("Item Code"), SAPDBFieldName("ItemCode"), _Ext.GridItemPickerEditor(typeof(ItemRow))]
         [NotMapped]
         public String ItemCode
@@ -137,20 +143,7 @@ namespace SAPWebPortal.APInvoiceLine
             get => fields.GrossTotal[this];
             set => fields.GrossTotal[this] = value;
         } 
-        [DisplayName("Warranty Item"), ReadOnly(true)]
-        [NotMapped]
-        public String U_WRNT
-        {
-            get => fields.U_WRNT[this];
-            set => fields.U_WRNT[this] = value;
-        }
-        [DisplayName("In Stock (udf)"), ReadOnly(true)]
-        [NotMapped]
-        public decimal? U_STCK
-        {
-            get => fields.U_STCK[this];
-            set => fields.U_STCK[this] = value;
-        }
+       
         [DisplayName("Base Type"), SAPDBFieldName("BaseType")]
         [NotMapped]
         public Int32? BaseType
@@ -1922,11 +1915,10 @@ namespace SAPWebPortal.APInvoiceLine
             public StringField UoMCode;
             public DecimalField LineTotal;
             public StringField AccountCode;
+            public StringField U_CustOrderNo;
             public StringField AccountName;
-            public StringField U_WRNT;
             public DecimalField GrossTotal;
             public DecimalField TaxTotal;
-            public DecimalField U_STCK;
             //base type
             public Int32Field BaseType;
             public Int32Field BaseEntry;

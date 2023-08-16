@@ -63,6 +63,17 @@ namespace SAPWebPortal.Common.PermissionsKeys
             public const string Insert = "MarketingDocs:APInvoice:Insert";
             public const string List = "MarketingDocs:APInvoice:List";
         }
+        [DisplayName("ARInvoice")]
+        public class ARInvoice
+        {
+            [ImplicitPermission(General), ImplicitPermission(View)]
+            public const string Delete = "MarketingDocs:ARInvoice:Delete";
+            [Description("Create/Update"), ImplicitPermission(General), ImplicitPermission(View)]
+            public const string Modify = "MarketingDocs:ARInvoice:Modify";
+            public const string View = "MarketingDocs:ARInvoice:View";
+            public const string Insert = "MarketingDocs:ARInvoice:Insert";
+            public const string List = "MarketingDocs:ARInvoice:List";
+        }
         [DisplayName("SalesOrder")]
         public class SalesOrder
         {

@@ -2,7 +2,6 @@
     export interface SapToShopifySyncLogForm {
         DocEntry: Serenity.StringEditor;
         SyncStatus: Serenity.StringEditor;
-        TargetStoreId: Serenity.StringEditor;
         SourceObjType: Serenity.StringEditor;
         SyncTime: Serenity.StringEditor;
     }
@@ -23,7 +22,6 @@
                 Q.initFormType(SapToShopifySyncLogForm, [
                     'DocEntry', w0,
                     'SyncStatus', w0,
-                    'TargetStoreId', w0,
                     'SourceObjType', w0,
                     'SyncTime', w0
                 ]);

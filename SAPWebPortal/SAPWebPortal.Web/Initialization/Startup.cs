@@ -35,6 +35,7 @@ using SAPWebPortal.Web.DependencyInjections;
 using SAPWebPortal.Web.Modules.SAPApp;
 using System.Threading;
 using System.Data;
+using SAPWebPortal.Web.Modules.ARInvoiceToAPInvoiceIntegration;
 
 namespace SAPWebPortal
 {
@@ -192,7 +193,7 @@ namespace SAPWebPortal
             services.AddSingleton<IB1ServiceLayer, B1ServiceLayer>();
             services.AddSingleton<ISharpShopify, SharpShopify>();
             services.AddSingleton<ILog, Logger>();
-            services.AddSingleton<ISAPtoShopifyController, SAPtoShopifyController>();
+            services.AddSingleton<IARInvoiceToAPInvoiceIntegration, ARInvoiceToAPInvoiceIntegration>();
             services.AddScoped<IDbConnection>(provider =>
             {
                 var connectionString = Configuration.GetSection("Data:Default:ConnectionString");
@@ -270,37 +271,45 @@ namespace SAPWebPortal
                 http_protocol = getConfigValue("DeploymentServer:Protocol").ToString();
 
             }
-            
-            
-           /* var serviceProvider = app.ApplicationServices;
-            var myService = serviceProvider.GetRequiredService<ISAPtoShopifyController>();
+            var serviceProvider = app.ApplicationServices;
+            var myService = serviceProvider.GetRequiredService<IARInvoiceToAPInvoiceIntegration>();
 
 
-            myService.SAPToShopifyGetItemsFunc2();
 
-            Thread SAPToShopifyGetItemsThread = new Thread(new ThreadStart(myService.SAPToShopifyGetItemsFunc));
-            SAPToShopifyGetItemsThread.IsBackground = true;
-            SAPToShopifyGetItemsThread.Name = "SAPToShopifyGetItemsThread";
-            SAPToShopifyGetItemsThread.Start();
-            //myService.SAPToShopifyIterationFunc();
-            Thread SAPToShopifyItemThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationItemFunc));
-            SAPToShopifyItemThread.IsBackground = true;
-            SAPToShopifyItemThread.Name = "SAPToShopifyItemThread";
-            SAPToShopifyItemThread.Start();
+            Thread ARtoAPThread = new Thread(new ThreadStart(myService.IterationFunc));
+            ARtoAPThread.IsBackground = true;
+            ARtoAPThread.Name = "ARtoAPThreadFunc";
+            ARtoAPThread.Start();
+
+            /* var serviceProvider = app.ApplicationServices;
+             var myService = serviceProvider.GetRequiredService<ISAPtoShopifyController>();
 
 
-            Thread SAPToShopifyStockThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationStockFunc));
-            SAPToShopifyStockThread.IsBackground = true;
-            SAPToShopifyStockThread.Name = "SAPToShopifyStockThread";
-            SAPToShopifyStockThread.Start();
+             myService.SAPToShopifyGetItemsFunc2();
+
+             Thread SAPToShopifyGetItemsThread = new Thread(new ThreadStart(myService.SAPToShopifyGetItemsFunc));
+             SAPToShopifyGetItemsThread.IsBackground = true;
+             SAPToShopifyGetItemsThread.Name = "SAPToShopifyGetItemsThread";
+             SAPToShopifyGetItemsThread.Start();
+             //myService.SAPToShopifyIterationFunc();
+             Thread SAPToShopifyItemThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationItemFunc));
+             SAPToShopifyItemThread.IsBackground = true;
+             SAPToShopifyItemThread.Name = "SAPToShopifyItemThread";
+             SAPToShopifyItemThread.Start();
 
 
-            Thread SAPToShopifyItemPricesThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationItemPricesFunc));
-            SAPToShopifyItemPricesThread.IsBackground = true;
-            SAPToShopifyItemPricesThread.Name = "SAPToShopifyItemPricesThread";
-            SAPToShopifyItemPricesThread.Start();*/
+             Thread SAPToShopifyStockThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationStockFunc));
+             SAPToShopifyStockThread.IsBackground = true;
+             SAPToShopifyStockThread.Name = "SAPToShopifyStockThread";
+             SAPToShopifyStockThread.Start();
 
-            
+
+             Thread SAPToShopifyItemPricesThread = new Thread(new ThreadStart(myService.SAPToShopifyIterationItemPricesFunc));
+             SAPToShopifyItemPricesThread.IsBackground = true;
+             SAPToShopifyItemPricesThread.Name = "SAPToShopifyItemPricesThread";
+             SAPToShopifyItemPricesThread.Start();*/
+
+
         }
         static int port = -1;
 

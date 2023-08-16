@@ -124,6 +124,15 @@ namespace MVC
 
         }
 
+        public static class ARInvoiceLine
+        {
+            public static class DocumentLine
+            {
+                public const string DocumentLineIndex = "~/Modules/ARInvoiceLine/DocumentLine/DocumentLineIndex.cshtml";
+            }
+
+        }
+
         public static class Common
         {
             public static class Dashboard

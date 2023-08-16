@@ -14,7 +14,7 @@ namespace SAPWebPortal.Default.Forms
     {
         public string DocEntry { get; set; }
         public string SyncStatus { get; set; }
-        public string TargetStoreId { get; set; }
+        //public string TargetStoreId { get; set; }
         public string SourceObjType { get; set; }
         public string SyncTime { get; set; }
     }

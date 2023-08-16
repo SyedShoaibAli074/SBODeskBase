@@ -500,26 +500,13 @@ C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.pdb
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.genruntimeconfig.cache
 C:\Users\shoaib\Desktop\PDFs & Docs\ENZA Home\Code\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\ref\SAPWebPortal.Web.dll
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.csproj.AssemblyReference.cache
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\Sentry.Attributes.cs
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.AssemblyInfoInputs.cache
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.AssemblyInfo.cs
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.csproj.CoreCompileInputs.cache
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.RazorAssemblyInfo.cache
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.RazorAssemblyInfo.cs
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.dll
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\refint\SAPWebPortal.Web.dll
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.pdb
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Serenity.Assets.staticwebassets.runtime.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\App_Data\CrystalReportHelper\CrystalReportsHelper.exe.config
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\web.config
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\appsettings.bundles.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\appsettings.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\App_Data\schema\udfs.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Connected Services\SBOSL\ConnectedService.json
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Serenity.Assets.staticwebassets.runtime.json
-C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\web.config
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\libman.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\package-lock.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\package.json
@@ -991,6 +978,16 @@ C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAP
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Serenity.Net.Core.xml
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Serenity.Net.Data.xml
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\bin\Debug\net6.0\Serenity.Net.Entity.xml
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.csproj.AssemblyReference.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.AssemblyInfoInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.AssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.csproj.CoreCompileInputs.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.RazorAssemblyInfo.cache
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.RazorAssemblyInfo.cs
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\staticwebassets\msbuild.SAPWebPortal.Web.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.SAPWebPortal.Web.props
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SAPWebPortal.Web.props
@@ -1000,5 +997,8 @@ C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAP
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\scopedcss\bundle\SAPWebPortal.Web.styles.css
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.csproj.CopyComplete
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\refint\SAPWebPortal.Web.dll
+C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.pdb
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\SAPWebPortal.Web.genruntimeconfig.cache
 C:\Users\shoaib\Desktop\PDFs & Docs\SBODeskBase\Code\SBODeskBase\SBODeskBase\SAPWebPortal\SAPWebPortal.Web\obj\Debug\net6.0\ref\SAPWebPortal.Web.dll

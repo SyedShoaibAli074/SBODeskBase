@@ -194,12 +194,12 @@ namespace SAPWebPortal.Web.DependencyInjections
                 }
                 else if (typeof(ARInvoice.DocumentRow) == row.GetType())
                 {
-                    var _row = row as Orders.DocumentRow;
+                    var _row = row as ARInvoice.DocumentRow;
                     req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
                 }
                 else if (typeof(APInvoice.DocumentRow) == row.GetType())
                 {
-                    var _row = row as Orders.DocumentRow;
+                    var _row = row as APInvoice.DocumentRow;
                     req = this._serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
                 }
                 else if (typeof(Delivery.DocumentRow) == row.GetType())

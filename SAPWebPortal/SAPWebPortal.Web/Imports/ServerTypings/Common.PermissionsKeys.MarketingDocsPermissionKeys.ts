@@ -10,6 +10,14 @@
             export const List = "MarketingDocs:APInvoice:List";
         }
 
+        namespace ARInvoice {
+            export const Delete = "MarketingDocs:ARInvoice:Delete";
+            export const Modify = "MarketingDocs:ARInvoice:Modify";
+            export const View = "MarketingDocs:ARInvoice:View";
+            export const Insert = "MarketingDocs:ARInvoice:Insert";
+            export const List = "MarketingDocs:ARInvoice:List";
+        }
+
         namespace SalesOrder {
             export const Delete = "MarketingDocs:SalesOrder:Delete";
             export const Modify = "MarketingDocs:SalesOrder:Modify";

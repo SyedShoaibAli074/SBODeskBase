@@ -150,6 +150,20 @@ namespace SAPWebPortal.APInvoice
             get => fields.UserSign[this];
             set => fields.UserSign[this] = value;
         }
+        [DisplayName("BPL_IDAssignedToInvoice")]
+        [NotMapped]
+        public string BPL_IDAssignedToInvoice
+        {
+            get => fields.BPL_IDAssignedToInvoice[this];
+            set => fields.BPL_IDAssignedToInvoice[this] = value;
+        }
+        [DisplayName("U_ARInvoiceNo")]
+        [NotMapped]
+        public string U_ARInvoiceNo
+        {
+            get => fields.U_ARInvoiceNo[this];
+            set => fields.U_ARInvoiceNo[this] = value;
+        }
 
         [DisplayName("Tax"), ReadOnly(true), SAPDBFieldName("VatSum")]
         [NotMapped]
@@ -330,7 +344,9 @@ namespace SAPWebPortal.APInvoice
             public StringField Project;
             public StringField PaymentGroupCode;
             public StringField PayToCode;
+            public StringField BPL_IDAssignedToInvoice;
             public StringField TrackNo;
+            public StringField U_ARInvoiceNo;
             public StringField ShipToCode;
             public StringField U_Cartons;
             public StringField U_Total_Weight;

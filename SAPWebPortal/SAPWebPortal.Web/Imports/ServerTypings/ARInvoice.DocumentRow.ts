@@ -9,9 +9,11 @@
         CardCode?: string;
         CardName?: string;
         Address?: string;
+        BPL_IDAssignedToInvoice?: string;
         NumAtCard?: string;
         DocTotal?: number;
         PaidToDate?: number;
+        DocumentLines?: ARInvoiceLine.DocumentLineRow[];
     }
 
     export namespace DocumentRow {
@@ -32,9 +34,11 @@
             CardCode = "CardCode",
             CardName = "CardName",
             Address = "Address",
+            BPL_IDAssignedToInvoice = "BPL_IDAssignedToInvoice",
             NumAtCard = "NumAtCard",
             DocTotal = "DocTotal",
-            PaidToDate = "PaidToDate"
+            PaidToDate = "PaidToDate",
+            DocumentLines = "DocumentLines"
         }
     }
 }

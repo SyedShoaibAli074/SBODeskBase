@@ -128,6 +128,13 @@ namespace SAPWebPortal.ARInvoice
             get => fields.PaidToDate[this];
             set => fields.PaidToDate[this] = value;
         }
+        [DisplayName("BPL_IDAssignedToInvoice")]
+        [NotMapped]
+        public string BPL_IDAssignedToInvoice
+        {
+            get => fields.BPL_IDAssignedToInvoice[this];
+            set => fields.BPL_IDAssignedToInvoice[this] = value;
+        }
         [DisplayName("Document Lines"), NotNull, MasterDetailRelation(foreignKey: "DocEntry")]
         [NotMapped]
         public System.Collections.Generic.List<DocumentLineRow> DocumentLines
@@ -156,6 +163,7 @@ namespace SAPWebPortal.ARInvoice
             public StringField CardCode;
             public StringField CardName;
             public StringField Address;
+            public StringField BPL_IDAssignedToInvoice;
             public StringField NumAtCard;
             public DoubleField DocTotal;
             public DoubleField PaidToDate;
