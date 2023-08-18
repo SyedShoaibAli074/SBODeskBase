@@ -18,16 +18,14 @@ namespace SAPWebPortal.Web.Modules.ARInvoiceToAPInvoiceIntegration
     {
         public void IterationFunc();
     }
-    public class ARInvoiceToAPInvoiceIntegration:ServiceEndpoint, IARInvoiceToAPInvoiceIntegration
+    public class ARInvoiceToAPInvoiceIntegration
     {
         IB1ServiceLayer _iB1ServiceLayer;
-        ISqlConnections _sqlConnections;
         IDbConnection _dbConnection;
 
-        public ARInvoiceToAPInvoiceIntegration(IB1ServiceLayer b1ServiceLayer,ISqlConnections sqlConnections)
+        public ARInvoiceToAPInvoiceIntegration()
         {
-            _iB1ServiceLayer = b1ServiceLayer;
-            _sqlConnections = sqlConnections;
+            _iB1ServiceLayer = new B1ServiceLayer().SLConnection();
             _dbConnection = DBHelper.GetSerenDBConnection();
         }
         public APInvoice.DocumentRow generateAPInvoicefromARInvoice(ARInvoice.DocumentRow ARrow,string DBName)
@@ -94,13 +92,13 @@ namespace SAPWebPortal.Web.Modules.ARInvoiceToAPInvoiceIntegration
 
                     try
                     {
-                        var _ARRow = _iB1ServiceLayer.GetSLEntity<ARInvoice.DocumentRow>(new ARInvoice.DocumentRow() { DocEntry = Convert.ToInt32(s.U_Key) }, DBName);
+                        var _ARRow = _iB1ServiceLayer._GetSLEntity<ARInvoice.DocumentRow>(new ARInvoice.DocumentRow() { DocEntry = Convert.ToInt32(s.U_Key) }, DBName);
 
                         if (!_ARRow.DocumentLines.Any(x => String.IsNullOrEmpty(x.U_Payable)))
                         {
                             var AProw = generateAPInvoicefromARInvoice(_ARRow, DBName);
 
-                            var response = _iB1ServiceLayer.Create<APInvoice.DocumentRow>(AProw, DBName);
+                            var response = _iB1ServiceLayer._Create<APInvoice.DocumentRow>(AProw, DBName);
 
                             if (response != null && !String.IsNullOrEmpty(response?.DocNum.ToString()))
                             {
@@ -175,7 +173,7 @@ namespace SAPWebPortal.Web.Modules.ARInvoiceToAPInvoiceIntegration
            
         }
 
-        void IARInvoiceToAPInvoiceIntegration.IterationFunc()
+        public void IterationFunc()
         {
 
             System.Timers.Timer t = new System.Timers.Timer();

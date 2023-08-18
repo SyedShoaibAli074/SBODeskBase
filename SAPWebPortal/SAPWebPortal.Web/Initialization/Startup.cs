@@ -193,7 +193,6 @@ namespace SAPWebPortal
             services.AddSingleton<IB1ServiceLayer, B1ServiceLayer>();
             services.AddSingleton<ISharpShopify, SharpShopify>();
             services.AddSingleton<ILog, Logger>();
-            services.AddSingleton<IARInvoiceToAPInvoiceIntegration, ARInvoiceToAPInvoiceIntegration>();
             services.AddScoped<IDbConnection>(provider =>
             {
                 var connectionString = Configuration.GetSection("Data:Default:ConnectionString");
@@ -271,7 +270,7 @@ namespace SAPWebPortal
                 http_protocol = getConfigValue("DeploymentServer:Protocol").ToString();
 
             }
-            var serviceProvider = app.ApplicationServices;
+            /*var serviceProvider = app.ApplicationServices;
             var myService = serviceProvider.GetRequiredService<IARInvoiceToAPInvoiceIntegration>();
 
 
@@ -279,7 +278,7 @@ namespace SAPWebPortal
             Thread ARtoAPThread = new Thread(new ThreadStart(myService.IterationFunc));
             ARtoAPThread.IsBackground = true;
             ARtoAPThread.Name = "ARtoAPThreadFunc";
-            ARtoAPThread.Start();
+            ARtoAPThread.Start();*/
 
             /* var serviceProvider = app.ApplicationServices;
              var myService = serviceProvider.GetRequiredService<ISAPtoShopifyController>();

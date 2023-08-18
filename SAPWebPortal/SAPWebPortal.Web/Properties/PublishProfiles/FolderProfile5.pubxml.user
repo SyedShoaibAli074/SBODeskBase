@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\wwwroot\ARtoAPInvoiceIntegration</_PublishTargetUrl>
-    <History>True|2023-08-16T17:32:57.1814239Z;True|2023-08-16T21:53:38.8013401+05:00;True|2023-08-16T21:21:56.6792456+05:00;</History>
+    <History>True|2023-08-18T07:25:53.7496808Z;True|2023-08-18T12:01:20.9222711+05:00;True|2023-08-16T22:32:57.1814239+05:00;True|2023-08-16T21:53:38.8013401+05:00;True|2023-08-16T21:21:56.6792456+05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

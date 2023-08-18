@@ -30,6 +30,7 @@ using SAPWebPortal.Web.Modules.SAPApp;
 using SAPWebPortal.Administration.Pages;
 using SAPWebPortal.Web.Modules.ARInvoiceToAPInvoiceIntegration;
 using Microsoft.AspNetCore.Mvc;
+using Sentry.Protocol;
 
 namespace SAPWebPortal
 
@@ -52,6 +53,17 @@ namespace SAPWebPortal
             SessionTimeoutThread.IsBackground = true;
             SessionTimeoutThread.Name = "SessionTimeOutThreadFunc";
             SessionTimeoutThread.Start();
+
+
+
+            
+
+            ARInvoiceToAPInvoiceIntegration aRInvoiceToAPInvoiceIntegration = new ARInvoiceToAPInvoiceIntegration();
+
+            Thread ARtoAPThread = new Thread(new ThreadStart(aRInvoiceToAPInvoiceIntegration.IterationFunc));
+            ARtoAPThread.IsBackground = true;
+            ARtoAPThread.Name = "ARtoAPThreadFunc";
+            ARtoAPThread.Start();
             CreateHostBuilder(args).Build().Run();
         }
         //cronjob junction to run every 3 min

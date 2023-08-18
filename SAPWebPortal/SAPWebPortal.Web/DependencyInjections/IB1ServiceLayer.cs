@@ -23,8 +23,11 @@ namespace SAPWebPortal.Web.DependencyInjections
     public interface IB1ServiceLayer
     {
         public T Create<T>(T row, string DBName);
+        public T _Create<T>(T row, string DBName);
         public void Update<T>(T row , string DBName);
         public T GetSLEntity<T>(T row , string DBName);
+        public T _GetSLEntity<T>(T row, string DBName);
+
         public System.Collections.Generic.List<T> GetSLList<T>(string DBName);
         public void CancelDocument<T>(T row, string storeName);
         public System.Collections.Generic.List<T> FromTabletoObject<T>(System.Data.DataTable table);
@@ -35,6 +38,7 @@ namespace SAPWebPortal.Web.DependencyInjections
     {
         private ISqlConnections sqlConnections = null;
         private SLConnection _serviceLayer = null;
+        private SLConnection __serviceLayer = null;
         public B1ServiceLayer(ISqlConnections sqlConnections)
         {
             this.sqlConnections = sqlConnections;
@@ -49,6 +53,16 @@ namespace SAPWebPortal.Web.DependencyInjections
             
             return res;
         }
+
+        public T _Create<T>(T row, string storeName)
+        {
+            T res = default(T);
+
+            res = _AddBO<T>(row, storeName);
+
+            return res;
+        }
+
         //Create Business Object
         public void Update<T>(T row, string DBName)
         {
@@ -62,9 +76,51 @@ namespace SAPWebPortal.Web.DependencyInjections
                // throw;
             }
         }
-        
-        
-        
+
+        public B1ServiceLayer()
+        {
+
+        }
+        public B1ServiceLayer SLConnection()
+        {
+            return new B1ServiceLayer();
+        }
+
+        public SLConnection _ConnectSL(string storeName = null, string DBName = null)
+        {
+            try
+            {
+                if (!String.IsNullOrEmpty(storeName))
+                {
+                    var con = DBHelper.GetSerenDBConnection();
+                    var shopifycreds = con.List<ShopifySettingsRow>().First(x => x.ApiBaseURL == storeName);
+                    var creds = con.List<SapDatabasesRow>().First(x => x.Id == Convert.ToInt32(shopifycreds.SapDatabase));
+                    return new SLConnection(creds.ServiceLayerUrl + "b1s/v2/", creds.CompanyDb, creds.UserName, AES.DecryptString(creds.Password));
+
+
+                }
+                else if (!String.IsNullOrEmpty(DBName))
+                {
+
+                    var con = DBHelper.GetSerenDBConnection();
+                    var creds = con.List<SapDatabasesRow>().First();
+                    return new SLConnection(creds.ServiceLayerUrl + "b1s/v2/", creds.CompanyDb, creds.UserName, AES.DecryptString(creds.Password));
+
+
+                }
+                else
+                {
+                    return null;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                ExceptionsController.Log(ex);
+                return null;
+                //throw;
+            }
+        }
 
         private void ConnectSL(string DBName=null)
         {
@@ -123,6 +179,42 @@ namespace SAPWebPortal.Web.DependencyInjections
 
 
         }
+        private T _AddBO<T>(T row, string storeName)
+        {
+            if (__serviceLayer == null)
+            {
+                __serviceLayer = _ConnectSL(storeName: storeName);
+            }
+            var json = JObject.FromObject(row);
+            var PropertyToRemove = json.Property("DBName");
+            if (PropertyToRemove != null)
+            {
+                PropertyToRemove.Remove();
+
+            }
+            var attributeobj = row.GetType().GetAttribute<ServiceLayerAttribute>();
+            T response = default(T);
+
+            if (row.GetType() == typeof(Modules.Returns.DocumentRow))
+            {
+                ExceptionsController.Log(new Exception("DataforReturn"), JsonConvert.SerializeObject(row));
+
+            }
+            else
+            {
+                //ExceptionsController.Log(new Exception("Data"), JsonConvert.SerializeObject(row));
+
+            }
+            response = this.__serviceLayer.Request(attributeobj.ModuleName).PostAsync<T>(json).GetAwaiter().GetResult();
+
+            return response;
+
+
+
+
+
+        }
+
         private void UpdateBO<T>(T row, string DBName)
         {
             if (_serviceLayer == null)
@@ -286,6 +378,66 @@ namespace SAPWebPortal.Web.DependencyInjections
 
             return req;
         }
+
+        public T _GetSLEntity<T>(T row, string DBName)
+        {
+            // ExceptionsController.Log(new Exception("ServiceLayer Obj"),JsonConvert.SerializeObject(_serviceLayer));
+            if (__serviceLayer == null)
+            {
+                __serviceLayer = _ConnectSL(DBName: DBName);
+            }
+
+            var attributeobj = row.GetType().GetAttribute<ServiceLayerAttribute>();
+            T req = default(T);
+
+            try
+            {
+                if (typeof(BusinessPartnerRow) == row.GetType())
+                {
+                    var _row = row as BusinessPartnerRow;
+                    req = __serviceLayer.Request(attributeobj.ModuleName, _row.CardCode).GetAsync<T>().Result; ;
+                }
+                else if (typeof(ItemRow) == row.GetType())
+                {
+                    var _row = row as ItemRow;
+                    //ExceptionsController.Log(new Exception("Item"),JsonConvert.SerializeObject(_row));
+
+                    req = __serviceLayer.Request(attributeobj.ModuleName, _row.ItemCode).GetAsync<T>().Result; ;
+                }
+                else if (typeof(Orders.DocumentRow) == row.GetType())
+                {
+                    var _row = row as Orders.DocumentRow;
+                    req = __serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(Delivery.DocumentRow) == row.GetType())
+                {
+                    var _row = row as Delivery.DocumentRow;
+                    req = __serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(SAPWebPortal.Web.Modules.DownPayment.DocumentRow) == row.GetType())
+                {
+                    var _row = row as SAPWebPortal.Web.Modules.DownPayment.DocumentRow;
+                    req = __serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(ARInvoice.DocumentRow) == row.GetType())
+                {
+                    var _row = row as ARInvoice.DocumentRow;
+                    req = this.__serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+                else if (typeof(APInvoice.DocumentRow) == row.GetType())
+                {
+                    var _row = row as APInvoice.DocumentRow;
+                    req = this.__serviceLayer.Request(attributeobj.ModuleName, _row.DocEntry).GetAsync<T>().Result; ;
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionsController.Log(ex);
+                // throw;
+            }
+            return req;
+        }
+
     }
 }
 
